@@ -1,0 +1,57 @@
+@import "tailwindcss";
+/* index.css or app.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* ================================
+   EHR Dashboard App Styles
+   ================================ */
+
+/* ===== CSS Variables ===== */
+:root {
+  --clr-black: #141414;
+  --clr-light-gray: #dcdcdc;
+  --clr-lemon: #a6af45;
+  --clr-almost-white: #f0f0f0;
+  --clr-pear: #dcdc3c;
+
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --transition-fast: 0.3s ease-in-out;
+}
+
+/* ===== Reset Styles ===== */
+* {
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--clr-almost-white);
+  color: var(--clr-black);
+}
+/* Global custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 2px;
+  height:2px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clr-lemon); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded outline-none;
+}
+.textarea {
+  @apply w-full px-4 py-2 border border-gray-300 rounded resize-none outline-none;
+}

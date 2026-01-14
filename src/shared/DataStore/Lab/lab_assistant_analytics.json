@@ -1,0 +1,83 @@
+{
+  "performanceAnalytics": [
+    {
+      "assistantId": "LA-001",
+      "name": "Ravi Sharma",
+      "department": "Pathology",
+      "totalSamplesHandled": 340,
+      "testsConducted": {
+        "CBC": 120,
+        "Glucose": 90,
+        "LFT": 60,
+        "KFT": 70
+      },
+      "avgSampleProcessingTimeMinutes": 12,
+      "accuracyRate": "98.2%",
+      "pendingTasks": 5,
+      "completedTasks": 75,
+      "attendance": {
+        "daysPresent": 26,
+        "daysAbsent": 2,
+        "leavesTaken": 2
+      },
+      "lastActive": "2025-07-22T13:10:00Z",
+      "status": "Active"
+    },
+    {
+      "assistantId": "LA-002",
+      "name": "Pooja Verma",
+      "department": "Microbiology",
+      "totalSamplesHandled": 290,
+      "testsConducted": {
+        "Culture": 100,
+        "Sensitivity": 80,
+        "Gram Stain": 110
+      },
+      "avgSampleProcessingTimeMinutes": 15,
+      "accuracyRate": "97.5%",
+      "pendingTasks": 8,
+      "completedTasks": 66,
+      "attendance": {
+        "daysPresent": 24,
+        "daysAbsent": 4,
+        "leavesTaken": 2
+      },
+      "lastActive": "2025-07-22T11:45:00Z",
+      "status": "Active"
+    }
+  ],
+  "activityLogs": [
+    {
+      "logId": "LOG-1001",
+      "assistantId": "LA-001",
+      "name": "Ravi Sharma",
+      "activity": "Processed 15 CBC test samples",
+      "timestamp": "2025-07-22T09:15:00Z",
+      "status": "Completed"
+    },
+    {
+      "logId": "LOG-1002",
+      "assistantId": "LA-002",
+      "name": "Pooja Verma",
+      "activity": "Logged 10 Culture test entries in LIMS",
+      "timestamp": "2025-07-22T10:20:00Z",
+      "status": "Completed"
+    },
+    {
+      "logId": "LOG-1003",
+      "assistantId": "LA-001",
+      "name": "Ravi Sharma",
+      "activity": "Reordered EDTA tubes due to low stock",
+      "timestamp": "2025-07-21T17:00:00Z",
+      "status": "Completed"
+    },
+    {
+      "logId": "LOG-1004",
+      "assistantId": "LA-002",
+      "name": "Pooja Verma",
+      "activity": "Maintenance check on Centrifuge Machine",
+      "timestamp": "2025-07-21T16:40:00Z",
+      "status": "Pending Review"
+    }
+  ]
+}

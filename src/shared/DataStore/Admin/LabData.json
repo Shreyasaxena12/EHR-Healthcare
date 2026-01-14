@@ -1,0 +1,300 @@
+[
+  {
+    "labTestId": "LAB20001",
+    "patientId": "P100000001",
+    "doctorId": "D1001",
+    "testName": "Complete Blood Count (CBC)",
+    "testCode": "CBC-01",
+    "testType": "Hematology",
+    "method": "Automated hematology analyzer",
+    "specimenType": "Blood - EDTA",
+    "sampleCollectedAt": "2025-07-05T09:30:00Z",
+    "sampleReceivedAt": "2025-07-05T10:00:00Z",
+    "reportDate": "2025-07-05T15:00:00Z",
+    "labName": "City Diagnostic Lab",
+    "labAddress": "123 Main St, Mumbai",
+    "technician": {
+      "technicianId": "TECH2001",
+      "name": "Suman Rao"
+    },
+    "status": "Completed",
+    "results": [
+      {
+        "parameter": "Hemoglobin",
+        "value": 13.8,
+        "unit": "g/dL",
+        "referenceRange": "13.0-17.0",
+        "flag": "Normal"
+      },
+      {
+        "parameter": "WBC Count",
+        "value": 7500,
+        "unit": "/µL",
+        "referenceRange": "4000-11000",
+        "flag": "Normal"
+      },
+      {
+        "parameter": "Platelet Count",
+        "value": 250000,
+        "unit": "/µL",
+        "referenceRange": "150000-450000",
+        "flag": "Normal"
+      }
+    ],
+    "resultSummary": "All CBC parameters within normal limits.",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "CBC_Report_20250705.pdf",
+        "url": "https://ehr.example.com/labreports/LAB20001_CBC.pdf"
+      }
+    ],
+    "billing": {
+      "amount": 500,
+      "currency": "INR",
+      "paid": true,
+      "paymentMethod": "Credit Card",
+      "transactionId": "TXN2000001"
+    },
+    "comments": "Patient was fasting before the test.",
+    "followUpRequired": false,
+    "retestScheduled": null
+  },
+  {
+    "labTestId": "LAB20002",
+    "patientId": "P100000002",
+    "doctorId": "D1003",
+    "testName": "HbA1c",
+    "testCode": "HBA1C-02",
+    "testType": "Biochemistry",
+    "method": "HPLC",
+    "specimenType": "Blood - Venous",
+    "sampleCollectedAt": "2025-06-30T08:00:00Z",
+    "sampleReceivedAt": "2025-06-30T09:00:00Z",
+    "reportDate": "2025-07-01T11:00:00Z",
+    "labName": "Metro Health Labs",
+    "labAddress": "45 MG Road, Delhi",
+    "technician": {
+      "technicianId": "TECH2005",
+      "name": "Rita Desai"
+    },
+    "status": "Completed",
+    "results": [
+      {
+        "parameter": "HbA1c",
+        "value": 6.8,
+        "unit": "%",
+        "referenceRange": "4.0-5.6",
+        "flag": "High"
+      }
+    ],
+    "resultSummary": "HbA1c elevated indicating pre-diabetes condition.",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "HbA1c_Report_20250701.pdf",
+        "url": "https://ehr.example.com/labreports/LAB20002_HbA1c.pdf"
+      }
+    ],
+    "billing": {
+      "amount": 700,
+      "currency": "INR",
+      "paid": false,
+      "paymentMethod": null,
+      "transactionId": null
+    },
+    "comments": "Advised dietary changes and exercise.",
+    "followUpRequired": true,
+    "retestScheduled": "2025-10-01T09:00:00Z"
+  },
+  {
+    "labTestId": "LAB20003",
+    "patientId": "P100000003",
+    "doctorId": "D1005",
+    "testName": "Lipid Profile",
+    "testCode": "LP-03",
+    "testType": "Biochemistry",
+    "method": "Enzymatic Colorimetric",
+    "specimenType": "Blood - Fasting",
+    "sampleCollectedAt": "2025-07-02T07:30:00Z",
+    "sampleReceivedAt": "2025-07-02T08:00:00Z",
+    "reportDate": "2025-07-02T14:00:00Z",
+    "labName": "HealthCare Diagnostics",
+    "labAddress": "89 Park Street, Kolkata",
+    "technician": {
+      "technicianId": "TECH2010",
+      "name": "Anil Kumar"
+    },
+    "status": "Completed",
+    "results": [
+      {
+        "parameter": "Total Cholesterol",
+        "value": 220,
+        "unit": "mg/dL",
+        "referenceRange": "<200",
+        "flag": "High"
+      },
+      {
+        "parameter": "HDL Cholesterol",
+        "value": 45,
+        "unit": "mg/dL",
+        "referenceRange": ">40",
+        "flag": "Normal"
+      },
+      {
+        "parameter": "LDL Cholesterol",
+        "value": 160,
+        "unit": "mg/dL",
+        "referenceRange": "<130",
+        "flag": "High"
+      },
+      {
+        "parameter": "Triglycerides",
+        "value": 150,
+        "unit": "mg/dL",
+        "referenceRange": "<150",
+        "flag": "Borderline"
+      }
+    ],
+    "resultSummary": "Elevated total and LDL cholesterol. Lifestyle modification recommended.",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "LipidProfile_Report_20250702.pdf",
+        "url": "https://ehr.example.com/labreports/LAB20003_LipidProfile.pdf"
+      }
+    ],
+    "billing": {
+      "amount": 900,
+      "currency": "INR",
+      "paid": true,
+      "paymentMethod": "Cash",
+      "transactionId": "TXN2000003"
+    },
+    "comments": "Patient confirmed fasting before sample collection.",
+    "followUpRequired": true,
+    "retestScheduled": null
+  },
+  {
+    "labTestId": "LAB20004",
+    "patientId": "P100000004",
+    "doctorId": "D1006",
+    "testName": "Thyroid Stimulating Hormone (TSH)",
+    "testCode": "TSH-04",
+    "testType": "Endocrinology",
+    "method": "Chemiluminescent Immunoassay",
+    "specimenType": "Blood - Serum",
+    "sampleCollectedAt": "2025-07-03T08:45:00Z",
+    "sampleReceivedAt": "2025-07-03T09:15:00Z",
+    "reportDate": "2025-07-03T12:30:00Z",
+    "labName": "Prime Labs",
+    "labAddress": "56 MG Road, Chennai",
+    "technician": {
+      "technicianId": "TECH2020",
+      "name": "Nisha Patel"
+    },
+    "status": "Completed",
+    "results": [
+      {
+        "parameter": "TSH",
+        "value": 4.5,
+        "unit": "mIU/L",
+        "referenceRange": "0.4-4.0",
+        "flag": "High"
+      }
+    ],
+    "resultSummary": "TSH level slightly elevated, suggestive of subclinical hypothyroidism.",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "TSH_Report_20250703.pdf",
+        "url": "https://ehr.example.com/labreports/LAB20004_TSH.pdf"
+      }
+    ],
+    "billing": {
+      "amount": 600,
+      "currency": "INR",
+      "paid": true,
+      "paymentMethod": "UPI",
+      "transactionId": "TXN2000004"
+    },
+    "comments": "Patient instructed to repeat test after 6 months.",
+    "followUpRequired": true,
+    "retestScheduled": "2026-01-03T09:00:00Z"
+  },
+  {
+    "labTestId": "LAB20005",
+    "patientId": "P100000005",
+    "doctorId": "D1007",
+    "testName": "Urinalysis",
+    "testCode": "UA-05",
+    "testType": "Microbiology",
+    "method": "Dipstick analysis and microscopic exam",
+    "specimenType": "Urine - Midstream",
+    "sampleCollectedAt": "2025-07-04T10:00:00Z",
+    "sampleReceivedAt": "2025-07-04T10:30:00Z",
+    "reportDate": "2025-07-04T14:00:00Z",
+    "labName": "Global Diagnostics",
+    "labAddress": "78 Park Lane, Bangalore",
+    "technician": {
+      "technicianId": "TECH2030",
+      "name": "Rajesh Singh"
+    },
+    "status": "Completed",
+    "results": [
+      {
+        "parameter": "Color",
+        "value": "Yellow",
+        "unit": null,
+        "referenceRange": "Yellow",
+        "flag": "Normal"
+      },
+      {
+        "parameter": "pH",
+        "value": 6.0,
+        "unit": "",
+        "referenceRange": "4.5-8.0",
+        "flag": "Normal"
+      },
+      {
+        "parameter": "Protein",
+        "value": "Negative",
+        "unit": null,
+        "referenceRange": "Negative",
+        "flag": "Normal"
+      },
+      {
+        "parameter": "Glucose",
+        "value": "Negative",
+        "unit": null,
+        "referenceRange": "Negative",
+        "flag": "Normal"
+      },
+      {
+        "parameter": "Microscopic Examination",
+        "value": "No RBC or WBC",
+        "unit": null,
+        "referenceRange": "None",
+        "flag": "Normal"
+      }
+    ],
+    "resultSummary": "Urinalysis normal with no signs of infection or abnormality.",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "Urinalysis_Report_20250704.pdf",
+        "url": "https://ehr.example.com/labreports/LAB20005_Urinalysis.pdf"
+      }
+    ],
+    "billing": {
+      "amount": 400,
+      "currency": "INR",
+      "paid": true,
+      "paymentMethod": "Cash",
+      "transactionId": "TXN2000005"
+    },
+    "comments": "No abnormalities detected.",
+    "followUpRequired": false,
+    "retestScheduled": null
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "requestId": "REQ1001",
+    "requestType": "Sample Collection",
+    "status": "pending",
+    "requestDate": "2025-07-13",
+    "patient": {
+      "id": "P4001",
+      "name": "Amit Verma",
+      "age": 34,
+      "gender": "Male",
+      "room": "102A"
+    },
+    "doctor": {
+      "id": "D2001",
+      "name": "Dr. Rajesh Mehta",
+      "specialization": "Cardiologist"
+    },
+    "nurse": {
+      "id": "N3001",
+      "name": "Kavita Singh",
+      "shift": "Morning"
+    },
+    "department": "Cardiology",
+    "requestedBy": "Doctor"
+  },
+  {
+    "requestId": "REQ1002",
+    "requestType": "Vitals Monitoring",
+    "status": "approved",
+    "requestDate": "2025-07-12",
+    "patient": {
+      "id": "P4002",
+      "name": "Sneha Sharma",
+      "age": 28,
+      "gender": "Female",
+      "room": "205B"
+    },
+    "doctor": {
+      "id": "D2002",
+      "name": "Dr. Priya Kapoor",
+      "specialization": "General Physician"
+    },
+    "nurse": {
+      "id": "N3002",
+      "name": "Ravi Tiwari",
+      "shift": "Evening"
+    },
+    "department": "General Ward",
+    "requestedBy": "Doctor"
+  },
+  {
+    "requestId": "REQ1003",
+    "requestType": "Emergency Assistance",
+    "status": "pending",
+    "requestDate": "2025-07-13",
+    "patient": {
+      "id": "P4003",
+      "name": "Rohan Singh",
+      "age": 45,
+      "gender": "Male",
+      "room": "ICU-1"
+    },
+    "doctor": {
+      "id": "D2003",
+      "name": "Dr. Anjali Rao",
+      "specialization": "Critical Care"
+    },
+    "nurse": {
+      "id": "N3003",
+      "name": "Mohit Chauhan",
+      "shift": "Night"
+    },
+    "department": "ICU",
+    "requestedBy": "Admin"
+  },
+  {
+    "requestId": "REQ1004",
+    "requestType": "Post-Surgery Monitoring",
+    "status": "rejected",
+    "requestDate": "2025-07-11",
+    "patient": {
+      "id": "P4004",
+      "name": "Neha Tiwari",
+      "age": 52,
+      "gender": "Female",
+      "room": "401C"
+    },
+    "doctor": {
+      "id": "D2004",
+      "name": "Dr. Manish Kulkarni",
+      "specialization": "Orthopedic Surgeon"
+    },
+    "nurse": {
+      "id": "N3004",
+      "name": "Suresh Yadav",
+      "shift": "Morning"
+    },
+    "department": "Surgery",
+    "requestedBy": "Doctor"
+  }
+]

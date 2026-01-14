@@ -1,0 +1,1064 @@
+[
+  {
+    "patientId": "P1000",
+    "name": "Anahita Ramaswamy",
+    "age": 42,
+    "gender": "Female",
+    "contact": {
+      "phone": "06733498875",
+      "email": "tejasbal@gmail.com",
+      "address": "H.No. 112, Karan Ganj, Panipat-388814"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Depression",
+        "diagnosedDate": "2018-09-06",
+        "treatment": "Sertraline 50mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "HDFC ERGO",
+      "policyNumber": "Hl67173375",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT825",
+          "date": "2025-06-16",
+          "amount": 1774,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT717",
+          "date": "2024-10-29",
+          "amount": 1101,
+          "method": "Net Banking",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 200
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Jivin Saini",
+      "date": "2025-07-15",
+      "status": "Pending",
+      "remarks": "Odit aut veritatis error nihil."
+    }
+  },
+  {
+    "patientId": "P1001",
+    "name": "Yasmin Chacko",
+    "age": 39,
+    "gender": "Male",
+    "contact": {
+      "phone": "+912606700784",
+      "email": "tara86@yahoo.com",
+      "address": "902, Sem Street, Hospet-896413"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Chronic Kidney Disease",
+        "diagnosedDate": "2018-05-24",
+        "treatment": "Erythropoietin Injection",
+        "status": "Resolved"
+      },
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2022-08-25",
+        "treatment": "Atorvastatin 20mg",
+        "status": "Resolved"
+      },
+      {
+        "condition": "Thyroid Disorder",
+        "diagnosedDate": "2023-10-19",
+        "treatment": "Levothyroxine 75mcg",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "HDFC ERGO",
+      "policyNumber": "qR02750540",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT632",
+          "date": "2025-03-12",
+          "amount": 1222,
+          "method": "Net Banking",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT376",
+          "date": "2024-08-03",
+          "amount": 2760,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT922",
+          "date": "2025-04-04",
+          "amount": 1483,
+          "method": "Cash",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 0
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Aayush Devan",
+      "date": "2025-06-21",
+      "status": "Pending",
+      "remarks": "Possimus error itaque neque facilis vero corrupti vero eos."
+    }
+  },
+  {
+    "patientId": "P1002",
+    "name": "Vaibhav Sengupta",
+    "age": 22,
+    "gender": "Male",
+    "contact": {
+      "phone": "07222472366",
+      "email": "kimaya63@bhasin-sandhu.com",
+      "address": "32/793, Sangha Chowk, Motihari-972066"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Arthritis",
+        "diagnosedDate": "2020-09-23",
+        "treatment": "Ibuprofen 400mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Arthritis",
+        "diagnosedDate": "2016-09-28",
+        "treatment": "Ibuprofen 400mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Max Bupa",
+      "policyNumber": "qQ82526187",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT162",
+          "date": "2025-03-16",
+          "amount": 2511,
+          "method": "Cash",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT847",
+          "date": "2025-07-04",
+          "amount": 1677,
+          "method": "Credit Card",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 500
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Bhamini Kurian",
+      "date": "2025-07-08",
+      "status": "Approved",
+      "remarks": "Dolorum cum sint a impedit aliquam."
+    }
+  },
+  {
+    "patientId": "P1003",
+    "name": "Parinaaz Loyal",
+    "age": 39,
+    "gender": "Male",
+    "contact": {
+      "phone": "+912123898653",
+      "email": "asarna@dua.com",
+      "address": "27, Koshy, Imphal-868904"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Asthma",
+        "diagnosedDate": "2020-12-21",
+        "treatment": "Salbutamol Inhaler",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "HDFC ERGO",
+      "policyNumber": "LQ02208306",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT191",
+          "date": "2025-04-08",
+          "amount": 2991,
+          "method": "Cash",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 500
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Anya Kumer",
+      "date": "2025-06-30",
+      "status": "Approved",
+      "remarks": "Rem soluta quaerat perferendis expedita adipisci magnam cumque mollitia mollitia."
+    }
+  },
+  {
+    "patientId": "P1004",
+    "name": "Manikya Grover",
+    "age": 31,
+    "gender": "Female",
+    "contact": {
+      "phone": "4925677493",
+      "email": "rameshsumer@yahoo.com",
+      "address": "H.No. 641, Ramakrishnan Nagar, Ahmednagar-704846"
+    },
+    "medicalHistory": [
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2020-07-09",
+        "treatment": "Atorvastatin 20mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Depression",
+        "diagnosedDate": "2016-01-06",
+        "treatment": "Sertraline 50mg",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Religare",
+      "policyNumber": "ml99598495",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT516",
+          "date": "2025-03-26",
+          "amount": 1257,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT626",
+          "date": "2025-01-14",
+          "amount": 897,
+          "method": "Cash",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT812",
+          "date": "2024-07-25",
+          "amount": 2061,
+          "method": "Net Banking",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 500
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Drishya Taneja",
+      "date": "2025-06-22",
+      "status": "Pending",
+      "remarks": "Excepturi aut magnam vitae eveniet a unde totam repellat."
+    }
+  },
+  {
+    "patientId": "P1005",
+    "name": "Jiya Randhawa",
+    "age": 44,
+    "gender": "Male",
+    "contact": {
+      "phone": "+911645049799",
+      "email": "rasha94@yahoo.com",
+      "address": "84/131, Atwal Zila, Rourkela 983569"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2020-01-13",
+        "treatment": "Amlodipine 10mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Type 2 Diabetes",
+        "diagnosedDate": "2017-04-25",
+        "treatment": "Metformin 500mg",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Star Health",
+      "policyNumber": "qW61138011",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT154",
+          "date": "2025-01-17",
+          "amount": 1048,
+          "method": "Credit Card",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 200
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Jayant Bhardwaj",
+      "date": "2025-06-24",
+      "status": "Approved",
+      "remarks": "Culpa occaecati maiores explicabo quo illo perspiciatis ipsam vero quam."
+    }
+  },
+  {
+    "patientId": "P1006",
+    "name": "Alisha Lata",
+    "age": 53,
+    "gender": "Female",
+    "contact": {
+      "phone": "00865428624",
+      "email": "idas@gmail.com",
+      "address": "12/57, Sankaran Road, North Dumdum-913179"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Heart Disease",
+        "diagnosedDate": "2019-12-15",
+        "treatment": "Aspirin 75mg",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Max Bupa",
+      "policyNumber": "SI63724202",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT315",
+          "date": "2025-05-05",
+          "amount": 2377,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT740",
+          "date": "2025-04-02",
+          "amount": 558,
+          "method": "Credit Card",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 500
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Hridaan Ramachandran",
+      "date": "2025-07-06",
+      "status": "Approved",
+      "remarks": "Consectetur unde ipsam modi dolorum."
+    }
+  },
+  {
+    "patientId": "P1007",
+    "name": "Aradhya Vaidya",
+    "age": 58,
+    "gender": "Female",
+    "contact": {
+      "phone": "06595803507",
+      "email": "navya06@gmail.com",
+      "address": "353, Seshadri Road, Bhatpara 711752"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Type 2 Diabetes",
+        "diagnosedDate": "2021-08-15",
+        "treatment": "Metformin 500mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Max Bupa",
+      "policyNumber": "LS75232648",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT800",
+          "date": "2025-07-19",
+          "amount": 2203,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT806",
+          "date": "2024-08-11",
+          "amount": 2724,
+          "method": "Net Banking",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 0
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Uthkarsh Gole",
+      "date": "2025-06-23",
+      "status": "Approved",
+      "remarks": "Beatae exercitationem reprehenderit odio officia sunt rem."
+    }
+  },
+  {
+    "patientId": "P1008",
+    "name": "Manjari Divan",
+    "age": 29,
+    "gender": "Male",
+    "contact": {
+      "phone": "07232072265",
+      "email": "ivanahayer@yahoo.com",
+      "address": "51, Sampath Zila, Mau-354879"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2022-01-20",
+        "treatment": "Amlodipine 10mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2019-11-24",
+        "treatment": "Amlodipine 10mg",
+        "status": "Resolved"
+      },
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2022-03-01",
+        "treatment": "Amlodipine 10mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Star Health",
+      "policyNumber": "QG03033791",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT636",
+          "date": "2025-03-28",
+          "amount": 1794,
+          "method": "UPI",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 750
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Sahil Devi",
+      "date": "2025-06-20",
+      "status": "Pending",
+      "remarks": "Necessitatibus esse consequatur deleniti veniam molestias."
+    }
+  },
+  {
+    "patientId": "P1009",
+    "name": "Aradhya Rajagopal",
+    "age": 23,
+    "gender": "Female",
+    "contact": {
+      "phone": "8660165846",
+      "email": "chawlarenee@bhargava.com",
+      "address": "H.No. 252, Gaba Marg, Kolkata 422514"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Chronic Kidney Disease",
+        "diagnosedDate": "2018-08-22",
+        "treatment": "Erythropoietin Injection",
+        "status": "Resolved"
+      },
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2022-10-01",
+        "treatment": "Amlodipine 10mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Depression",
+        "diagnosedDate": "2018-05-03",
+        "treatment": "Sertraline 50mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Religare",
+      "policyNumber": "lW62661726",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT926",
+          "date": "2024-11-05",
+          "amount": 2970,
+          "method": "Cash",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT966",
+          "date": "2024-09-26",
+          "amount": 1132,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT369",
+          "date": "2025-06-21",
+          "amount": 534,
+          "method": "Net Banking",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 0
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Inaaya  Garde",
+      "date": "2025-06-29",
+      "status": "Approved",
+      "remarks": "Optio dolorem quo consequatur facilis sit explicabo possimus."
+    }
+  },
+  {
+    "patientId": "P1010",
+    "name": "Vaibhav Bakshi",
+    "age": 74,
+    "gender": "Female",
+    "contact": {
+      "phone": "04440625941",
+      "email": "paggarwal@gmail.com",
+      "address": "46/69, Chakraborty Zila, Vadodara-884364"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Type 2 Diabetes",
+        "diagnosedDate": "2021-04-10",
+        "treatment": "Metformin 500mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Max Bupa",
+      "policyNumber": "iN50428162",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT640",
+          "date": "2024-09-24",
+          "amount": 906,
+          "method": "Net Banking",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 0
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Dhanuk Swamy",
+      "date": "2025-06-27",
+      "status": "Approved",
+      "remarks": "Ea ipsa omnis officia nemo."
+    }
+  },
+  {
+    "patientId": "P1011",
+    "name": "Lavanya Choudhary",
+    "age": 69,
+    "gender": "Male",
+    "contact": {
+      "phone": "1423758249",
+      "email": "rajojas@yahoo.com",
+      "address": "76/33, Sule Nagar, Bardhaman-243324"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Heart Disease",
+        "diagnosedDate": "2024-04-20",
+        "treatment": "Aspirin 75mg",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "ICICI Lombard",
+      "policyNumber": "Vl58484240",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT247",
+          "date": "2024-11-19",
+          "amount": 2877,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT671",
+          "date": "2025-01-08",
+          "amount": 2259,
+          "method": "Net Banking",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT809",
+          "date": "2025-02-28",
+          "amount": 847,
+          "method": "Credit Card",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 200
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Indranil Bobal",
+      "date": "2025-07-17",
+      "status": "Pending",
+      "remarks": "Quis delectus architecto tenetur quisquam asperiores velit sint."
+    }
+  },
+  {
+    "patientId": "P1012",
+    "name": "Shanaya Halder",
+    "age": 80,
+    "gender": "Male",
+    "contact": {
+      "phone": "6054703178",
+      "email": "batradhanuk@kala.net",
+      "address": "H.No. 603, Vaidya Road, Firozabad-132414"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Chronic Kidney Disease",
+        "diagnosedDate": "2020-08-20",
+        "treatment": "Erythropoietin Injection",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Religare",
+      "policyNumber": "oy14583602",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT522",
+          "date": "2025-07-09",
+          "amount": 2965,
+          "method": "Cash",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT138",
+          "date": "2025-06-14",
+          "amount": 2300,
+          "method": "Credit Card",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT274",
+          "date": "2024-11-19",
+          "amount": 1354,
+          "method": "UPI",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 750
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Miraya Kothari",
+      "date": "2025-07-10",
+      "status": "Approved",
+      "remarks": "Cupiditate tempora quaerat dicta accusamus sapiente similique."
+    }
+  },
+  {
+    "patientId": "P1013",
+    "name": "Priyansh Bhakta",
+    "age": 33,
+    "gender": "Male",
+    "contact": {
+      "phone": "+913800403067",
+      "email": "romilrama@gmail.com",
+      "address": "H.No. 281, Kant Path, Katihar 956286"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2019-04-25",
+        "treatment": "Amlodipine 10mg",
+        "status": "Resolved"
+      },
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2016-01-25",
+        "treatment": "Atorvastatin 20mg",
+        "status": "Resolved"
+      },
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2016-03-09",
+        "treatment": "Atorvastatin 20mg",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Max Bupa",
+      "policyNumber": "fy76974324",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT832",
+          "date": "2025-04-15",
+          "amount": 2006,
+          "method": "UPI",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 0
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Saksham Edwin",
+      "date": "2025-06-20",
+      "status": "Pending",
+      "remarks": "Mollitia id error iusto corporis pariatur."
+    }
+  },
+  {
+    "patientId": "P1014",
+    "name": "Ayesha Ratti",
+    "age": 28,
+    "gender": "Male",
+    "contact": {
+      "phone": "+912688851993",
+      "email": "tarinitoor@gmail.com",
+      "address": "14/49, Dhar Marg, Udaipur-150937"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2020-11-26",
+        "treatment": "Amlodipine 10mg",
+        "status": "Resolved"
+      },
+      {
+        "condition": "Depression",
+        "diagnosedDate": "2022-04-04",
+        "treatment": "Sertraline 50mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Chronic Kidney Disease",
+        "diagnosedDate": "2023-07-10",
+        "treatment": "Erythropoietin Injection",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "ICICI Lombard",
+      "policyNumber": "Bo60234600",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT430",
+          "date": "2024-08-31",
+          "amount": 1815,
+          "method": "Credit Card",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 750
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Darshit Wali",
+      "date": "2025-07-05",
+      "status": "Pending",
+      "remarks": "Deserunt est odit incidunt maiores provident sequi."
+    }
+  },
+  {
+    "patientId": "P1015",
+    "name": "Jhanvi Majumdar",
+    "age": 57,
+    "gender": "Male",
+    "contact": {
+      "phone": "9244660822",
+      "email": "dassinaaya@yahoo.com",
+      "address": "42/92, Din Street, Ozhukarai 279055"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Type 2 Diabetes",
+        "diagnosedDate": "2015-08-19",
+        "treatment": "Metformin 500mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2020-06-28",
+        "treatment": "Amlodipine 10mg",
+        "status": "Resolved"
+      },
+      {
+        "condition": "Thyroid Disorder",
+        "diagnosedDate": "2019-07-22",
+        "treatment": "Levothyroxine 75mcg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Religare",
+      "policyNumber": "BO92239232",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT442",
+          "date": "2024-08-06",
+          "amount": 1098,
+          "method": "Cash",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT572",
+          "date": "2024-08-13",
+          "amount": 1201,
+          "method": "Cash",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT523",
+          "date": "2025-01-15",
+          "amount": 2144,
+          "method": "Credit Card",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 0
+    },
+    "requestStatus": {
+      "type": "Nurse Request",
+      "requestedBy": "Tiya Rau",
+      "date": "2025-06-20",
+      "status": "Pending",
+      "remarks": "Saepe recusandae ducimus quis veritatis repudiandae distinctio velit maxime."
+    }
+  },
+  {
+    "patientId": "P1016",
+    "name": "Pari Bhalla",
+    "age": 26,
+    "gender": "Male",
+    "contact": {
+      "phone": "04134444021",
+      "email": "ewadhwa@chaudhari-biswas.info",
+      "address": "73/882, Bumb Nagar, Tinsukia-711881"
+    },
+    "medicalHistory": [
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2016-10-27",
+        "treatment": "Atorvastatin 20mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "Depression",
+        "diagnosedDate": "2019-09-24",
+        "treatment": "Sertraline 50mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "HDFC ERGO",
+      "policyNumber": "mQ60176248",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT166",
+          "date": "2025-05-01",
+          "amount": 2415,
+          "method": "Cash",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 500
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Eshani Gole",
+      "date": "2025-06-20",
+      "status": "Approved",
+      "remarks": "Nesciunt voluptates vel vero temporibus animi numquam ad."
+    }
+  },
+  {
+    "patientId": "P1017",
+    "name": "Diya Mander",
+    "age": 44,
+    "gender": "Female",
+    "contact": {
+      "phone": "1094686929",
+      "email": "ryan25@maharaj.info",
+      "address": "H.No. 48, Mall, Belgaum 806652"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Arthritis",
+        "diagnosedDate": "2023-12-09",
+        "treatment": "Ibuprofen 400mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Religare",
+      "policyNumber": "AP29594999",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT972",
+          "date": "2025-03-20",
+          "amount": 2502,
+          "method": "Credit Card",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT907",
+          "date": "2025-05-26",
+          "amount": 2619,
+          "method": "Net Banking",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT124",
+          "date": "2024-10-04",
+          "amount": 2151,
+          "method": "UPI",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 500
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Yuvaan Raman",
+      "date": "2025-07-12",
+      "status": "Pending",
+      "remarks": "Est doloribus beatae cumque consequatur."
+    }
+  },
+  {
+    "patientId": "P1018",
+    "name": "Lagan Raju",
+    "age": 25,
+    "gender": "Male",
+    "contact": {
+      "phone": "4405407019",
+      "email": "xrana@chander.com",
+      "address": "42/566, Kara Chowk, Meerut-130816"
+    },
+    "medicalHistory": [
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2020-12-11",
+        "treatment": "Atorvastatin 20mg",
+        "status": "Ongoing"
+      },
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2023-02-14",
+        "treatment": "Atorvastatin 20mg",
+        "status": "Resolved"
+      },
+      {
+        "condition": "Heart Disease",
+        "diagnosedDate": "2022-01-19",
+        "treatment": "Aspirin 75mg",
+        "status": "Resolved"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "HDFC ERGO",
+      "policyNumber": "lF94276213",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT683",
+          "date": "2024-08-16",
+          "amount": 2150,
+          "method": "UPI",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT285",
+          "date": "2025-04-29",
+          "amount": 2941,
+          "method": "Cash",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT544",
+          "date": "2025-05-18",
+          "amount": 1047,
+          "method": "Credit Card",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 500
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Jiya Acharya",
+      "date": "2025-06-21",
+      "status": "Pending",
+      "remarks": "Itaque cum occaecati esse error error dignissimos iure."
+    }
+  },
+  {
+    "patientId": "P1019",
+    "name": "Darshit Sant",
+    "age": 19,
+    "gender": "Female",
+    "contact": {
+      "phone": "07537679074",
+      "email": "doshiaarav@varkey.net",
+      "address": "71/23, Raman Marg, Chennai 102596"
+    },
+    "medicalHistory": [
+      {
+        "condition": "Asthma",
+        "diagnosedDate": "2022-11-22",
+        "treatment": "Salbutamol Inhaler",
+        "status": "Ongoing"
+      }
+    ],
+    "paymentDetails": {
+      "insuranceProvider": "Religare",
+      "policyNumber": "oD66901287",
+      "paymentHistory": [
+        {
+          "paymentId": "PMT986",
+          "date": "2024-08-08",
+          "amount": 1474,
+          "method": "Credit Card",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT783",
+          "date": "2024-11-12",
+          "amount": 1551,
+          "method": "Net Banking",
+          "status": "Paid"
+        },
+        {
+          "paymentId": "PMT793",
+          "date": "2025-01-01",
+          "amount": 2399,
+          "method": "Net Banking",
+          "status": "Paid"
+        }
+      ],
+      "outstandingAmount": 200
+    },
+    "requestStatus": {
+      "type": "Doctor Request",
+      "requestedBy": "Eva Issac",
+      "date": "2025-07-01",
+      "status": "Approved",
+      "remarks": "Neque eaque aspernatur libero et."
+    }
+  }
+]

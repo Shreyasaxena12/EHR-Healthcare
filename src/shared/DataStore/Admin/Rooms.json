@@ -1,0 +1,92 @@
+[
+  {
+    "id": "R101",
+    "type": "General",
+    "floor": 1,
+    "status": "Available",
+    "capacity": 4,
+    "currentOccupancy": 2,
+    "patientsAssigned": ["P003", "P008"]
+  },
+  {
+    "id": "R102",
+    "type": "ICU",
+    "floor": 1,
+    "status": "Occupied",
+    "capacity": 2,
+    "currentOccupancy": 2,
+    "patientsAssigned": ["P005", "P001"]
+  },
+  {
+    "id": "R203",
+    "type": "Private",
+    "floor": 2,
+    "status": "Occupied",
+    "capacity": 1,
+    "currentOccupancy": 1,
+    "patientsAssigned": ["P009"]
+  },
+  {
+    "id": "R204",
+    "type": "Semi-Private",
+    "floor": 2,
+    "status": "Available",
+    "capacity": 2,
+    "currentOccupancy": 0,
+    "patientsAssigned": []
+  },
+  {
+    "id": "R305",
+    "type": "Deluxe",
+    "floor": 3,
+    "status": "Occupied",
+    "capacity": 1,
+    "currentOccupancy": 1,
+    "patientsAssigned": ["P002"]
+  },
+  {
+    "id": "R306",
+    "type": "Maternity",
+    "floor": 3,
+    "status": "Occupied",
+    "capacity": 2,
+    "currentOccupancy": 1,
+    "patientsAssigned": ["P006"]
+  },
+  {
+    "id": "R110",
+    "type": "Dermatology",
+    "floor": 1,
+    "status": "Occupied",
+    "capacity": 2,
+    "currentOccupancy": 2,
+    "patientsAssigned": ["P004", "P009"]
+  },
+  {
+    "id": "R208",
+    "type": "General",
+    "floor": 2,
+    "status": "Occupied",
+    "capacity": 3,
+    "currentOccupancy": 1,
+    "patientsAssigned": ["P007"]
+  },
+  {
+    "id": "R115",
+    "type": "Pediatrics",
+    "floor": 1,
+    "status": "Vacant",
+    "capacity": 2,
+    "currentOccupancy": 0,
+    "patientsAssigned": []
+  },
+  {
+    "id": "R210",
+    "type": "Orthopedics",
+    "floor": 2,
+    "status": "Under Maintenance",
+    "capacity": 2,
+    "currentOccupancy": 0,
+    "patientsAssigned": []
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "month": "January",
+    "totalRevenue": 125000,
+    "revenueBreakdown": {
+      "subscriptionFees": 70000,
+      "consultationFees": 35000,
+      "labServices": 15000,
+      "miscellaneous": 5000
+    },
+    "departments": {
+      "cardiology": 40000,
+      "neurology": 25000,
+      "orthopedics": 30000,
+      "generalMedicine": 20000,
+      "radiology": 15000,
+      "others": 5000
+    }
+  },
+  {
+    "month": "February",
+    "totalRevenue": 130000,
+    "revenueBreakdown": {
+      "subscriptionFees": 72000,
+      "consultationFees": 37000,
+      "labServices": 16000,
+      "miscellaneous": 5000
+    },
+    "departments": {
+      "cardiology": 42000,
+      "neurology": 26000,
+      "orthopedics": 31000,
+      "generalMedicine": 21000,
+      "radiology": 17000,
+      "others": 3000
+    }
+  },
+  {
+    "month": "March",
+    "totalRevenue": 140000,
+    "revenueBreakdown": {
+      "subscriptionFees": 75000,
+      "consultationFees": 40000,
+      "labServices": 18000,
+      "miscellaneous": 7000
+    },
+    "departments": {
+      "cardiology": 45000,
+      "neurology": 28000,
+      "orthopedics": 32000,
+      "generalMedicine": 22000,
+      "radiology": 18000,
+      "others": 5000
+    }
+  },
+  {
+    "month": "April",
+    "totalRevenue": 138000,
+    "revenueBreakdown": {
+      "subscriptionFees": 74000,
+      "consultationFees": 39000,
+      "labServices": 17000,
+      "miscellaneous": 7000
+    },
+    "departments": {
+      "cardiology": 44000,
+      "neurology": 27000,
+      "orthopedics": 31000,
+      "generalMedicine": 21000,
+      "radiology": 18000,
+      "others": 5000
+    }
+  },
+  {
+    "month": "May",
+    "totalRevenue": 145000,
+    "revenueBreakdown": {
+      "subscriptionFees": 77000,
+      "consultationFees": 41000,
+      "labServices": 18000,
+      "miscellaneous": 6000
+    },
+    "departments": {
+      "cardiology": 47000,
+      "neurology": 28000,
+      "orthopedics": 33000,
+      "generalMedicine": 22000,
+      "radiology": 18000,
+      "others": 4000
+    }
+  },
+  {
+    "month": "June",
+    "totalRevenue": 150000,
+    "revenueBreakdown": {
+      "subscriptionFees": 80000,
+      "consultationFees": 42000,
+      "labServices": 18000,
+      "miscellaneous": 7000
+    },
+    "departments": {
+      "cardiology": 48000,
+      "neurology": 29000,
+      "orthopedics": 34000,
+      "generalMedicine": 23000,
+      "radiology": 19000,
+      "others": 4000
+    }
+  },
+  {
+    "month": "July",
+    "totalRevenue": 155000,
+    "revenueBreakdown": {
+      "subscriptionFees": 82000,
+      "consultationFees": 43000,
+      "labServices": 19000,
+      "miscellaneous": 6000
+    },
+    "departments": {
+      "cardiology": 50000,
+      "neurology": 30000,
+      "orthopedics": 35000,
+      "generalMedicine": 23000,
+      "radiology": 19000,
+      "others": 3000
+    }
+  },
+  {
+    "month": "August",
+    "totalRevenue": 160000,
+    "revenueBreakdown": {
+      "subscriptionFees": 85000,
+      "consultationFees": 44000,
+      "labServices": 19000,
+      "miscellaneous": 6000
+    },
+    "departments": {
+      "cardiology": 52000,
+      "neurology": 31000,
+      "orthopedics": 35000,
+      "generalMedicine": 23000,
+      "radiology": 19000,
+      "others": 3000
+    }
+  },
+  {
+    "month": "September",
+    "totalRevenue": 162000,
+    "revenueBreakdown": {
+      "subscriptionFees": 86000,
+      "consultationFees": 44000,
+      "labServices": 20000,
+      "miscellaneous": 6000
+    },
+    "departments": {
+      "cardiology": 53000,
+      "neurology": 31000,
+      "orthopedics": 36000,
+      "generalMedicine": 23000,
+      "radiology": 19000,
+      "others": 3000
+    }
+  },
+  {
+    "month": "October",
+    "totalRevenue": 165000,
+    "revenueBreakdown": {
+      "subscriptionFees": 88000,
+      "consultationFees": 45000,
+      "labServices": 20000,
+      "miscellaneous": 6000
+    },
+    "departments": {
+      "cardiology": 54000,
+      "neurology": 32000,
+      "orthopedics": 36000,
+      "generalMedicine": 24000,
+      "radiology": 19000,
+      "others": 3000
+    }
+  },
+  {
+    "month": "November",
+    "totalRevenue": 170000,
+    "revenueBreakdown": {
+      "subscriptionFees": 90000,
+      "consultationFees": 46000,
+      "labServices": 21000,
+      "miscellaneous": 6000
+    },
+    "departments": {
+      "cardiology": 56000,
+      "neurology": 33000,
+      "orthopedics": 37000,
+      "generalMedicine": 24000,
+      "radiology": 20000,
+      "others": 3000
+    }
+  },
+  {
+    "month": "December",
+    "totalRevenue": 175000,
+    "revenueBreakdown": {
+      "subscriptionFees": 92000,
+      "consultationFees": 47000,
+      "labServices": 21000,
+      "miscellaneous": 6000
+    },
+    "departments": {
+      "cardiology": 57000,
+      "neurology": 34000,
+      "orthopedics": 37000,
+      "generalMedicine": 25000,
+      "radiology": 20000,
+      "others": 3000
+    }
+  }
+]

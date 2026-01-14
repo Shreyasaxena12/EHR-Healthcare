@@ -1,0 +1,151 @@
+[
+  {
+    "id": "D1001",
+    "fullName": "Dr.Ashish Kaushik",
+    "specialization": "Cardiologist",
+    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "asshish.kaushik@hospital.com",
+    "phone": "+91-9876543210",
+    "gender": "Male",
+    "age": 33,
+    "experience": "10 Years",
+    "qualifications": ["MBBS", "MD (Cardiology)"],
+    "department": "Cardiology",
+    "availability": {
+      "status": "Online",
+      "timings": "Mon - Fri, 10:00 AM - 5:00 PM"
+    },
+    "stats": {
+      "totalPatients": 1287,
+      "appointmentsToday": 12,
+      "pendingLabReports": 4,
+      "prescriptionsGiven": 845
+    },
+    "address": "Prime Hospital, Sector 45, New Delhi",
+    "joinedDate": "2015-06-01",
+    "appointments": [
+      {
+        "appointmentId": "A1001",
+        "patientName": "Rajesh Kumar",
+        "date": "2025-07-11",
+        "time": "10:00 AM",
+        "type": "Online",
+        "status": "Scheduled",
+        "reason": "Routine Checkup"
+      },
+      {
+        "appointmentId": "A1002",
+        "patientName": "Sneha Verma",
+        "date": "2025-07-11",
+        "time": "11:30 AM",
+        "type": "In-person",
+        "status": "Completed",
+        "reason": "Chest Pain"
+      }
+    ],
+    "patients": [
+      {
+        "patientId": "P20001",
+        "firstName": "Rajesh",
+        "lastName": "Kumar",
+        "age": 45,
+        "gender": "Male",
+        "phone": "+91-9876543210",
+        "email": "rajesh.kumar@example.com",
+        "address": "123 MG Road, Delhi",
+        "admissionDate": "2025-07-01",
+        "photo": "https://randomuser.me/api/portraits/men/22.jpg"
+      },
+      {
+        "patientId": "P20002",
+        "firstName": "Sneha",
+        "lastName": "Verma",
+        "age": 29,
+        "gender": "Female",
+        "phone": "+91-9876543211",
+        "email": "sneha.verma@example.com",
+        "address": "56 Nehru Nagar, Lucknow",
+        "admissionDate": "2025-07-03",
+        "photo": "https://randomuser.me/api/portraits/women/44.jpg"
+      }
+    ],
+    "monthlyStats": {
+      "month": "July 2025",
+      "appointmentStats": {
+        "total": 120,
+        "completed": 105,
+        "cancelled": 8,
+        "noShow": 7,
+        "newPatients": 28
+      },
+      "patientStats": {
+        "uniqueSeen": 88,
+        "followUps": 32,
+        "inpatients": 12,
+        "outpatients": 76
+      },
+      "prescriptionStats": {
+        "total": 98,
+        "mostCommonDiagnosis": "Hypertension",
+        "averagePrescriptionsPerPatient": 1.1
+      },
+      "labStats": {
+        "testsOrdered": 65,
+        "reportsReviewed": 58,
+        "pending": 7
+      },
+      "revenueStats": {
+        "total": 48000,
+        "currency": "INR",
+        "averagePerPatient": 545
+      },
+      "timeStats": {
+        "avgConsultationTimeMins": 11,
+        "workingDays": 20,
+        "onLeaveDays": 2
+      }
+    },
+    "feedbacks": [
+      {
+        "feedbackId": "F1001",
+        "patientId": "P20001",
+        "patientName": "Rajesh Kumar",
+        "rating": 5,
+        "comment": "Dr. Kaushik was very attentive and explained everything clearly.",
+        "date": "2025-07-11"
+      },
+      {
+        "feedbackId": "F1002",
+        "patientId": "P20002",
+        "patientName": "Sneha Verma",
+        "rating": 4,
+        "comment": "Good consultation, but the waiting time was a bit long.",
+        "date": "2025-07-12"
+      },
+      {
+        "feedbackId": "F1003",
+        "patientId": "P20003",
+        "patientName": "Amit Yadav",
+        "rating": 5,
+        "comment": "Excellent doctor. Very polite and professional.",
+        "date": "2025-07-13"
+      },
+      {
+        "feedbackId": "F1004",
+        "patientId": "P20004",
+        "patientName": "Priya Sharma",
+        "rating": 4,
+        "comment": "Satisfied with the treatment. Will recommend to others.",
+        "date": "2025-07-14"
+      },
+      {
+        "feedbackId": "F1005",
+        "patientId": "P20005",
+        "patientName": "Vikram Singh",
+        "rating": 3,
+        "comment": "Doctor is good but appointment time was not followed.",
+        "date": "2025-07-14"
+      }
+    ]
+  }
+]

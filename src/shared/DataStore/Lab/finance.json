@@ -1,0 +1,90 @@
+{
+  "labBillingRecords": [
+    {
+      "billingId": "BILL-20250721-001",
+      "patient": {
+        "patientId": "PAT-001",
+        "name": "Rahul Sharma",
+        "age": 35,
+        "gender": "Male",
+        "contact": "+91-9876543210"
+      },
+      "visitId": "VISIT-001",
+      "tests": [
+        {
+          "testId": "LAB-TSH",
+          "testName": "Thyroid Stimulating Hormone (TSH)",
+          "price": 500,
+          "discount": 50,
+          "tax": 18,
+          "finalAmount": 531
+        },
+        {
+          "testId": "LAB-CBC",
+          "testName": "Complete Blood Count (CBC)",
+          "price": 400,
+          "discount": 0,
+          "tax": 18,
+          "finalAmount": 472
+        }
+      ],
+      "totalAmount": 1000,
+      "totalDiscount": 50,
+      "totalTax": 171,
+      "grandTotal": 1121,
+      "payment": {
+        "status": "Paid",
+        "paymentMethod": "UPI",
+        "transactionId": "TXN-UPI-9834723982",
+        "paidDate": "2025-07-21T10:00:00Z"
+      },
+      "billingDate": "2025-07-21T09:45:00Z",
+      "billedBy": "Receptionist-01",
+      "remarks": "Patient paid full amount. Bill sent via SMS and email.",
+      "invoiceUrl": "/bills/invoices/BILL-20250721-001.pdf"
+    },
+    {
+      "billingId": "BILL-20250721-002",
+      "patient": {
+        "patientId": "PAT-002",
+        "name": "Anjali Verma",
+        "age": 28,
+        "gender": "Female",
+        "contact": "+91-9876001122"
+      },
+      "visitId": "VISIT-002",
+      "tests": [
+        {
+          "testId": "LAB-LFT",
+          "testName": "Liver Function Test",
+          "price": 850,
+          "discount": 85,
+          "tax": 18,
+          "finalAmount": 904.3
+        },
+        {
+          "testId": "LAB-GLU",
+          "testName": "Glucose (Fasting)",
+          "price": 200,
+          "discount": 20,
+          "tax": 18,
+          "finalAmount": 212.4
+        }
+      ],
+      "totalAmount": 1050,
+      "totalDiscount": 105,
+      "totalTax": 121.7,
+      "grandTotal": 1066.7,
+      "payment": {
+        "status": "Pending",
+        "paymentMethod": null,
+        "transactionId": null,
+        "paidDate": null
+      },
+      "billingDate": "2025-07-21T12:30:00Z",
+      "billedBy": "Receptionist-02",
+      "remarks": "Patient to pay on delivery of reports.",
+      "invoiceUrl": "/bills/invoices/BILL-20250721-002.pdf"
+    }
+  ]
+}

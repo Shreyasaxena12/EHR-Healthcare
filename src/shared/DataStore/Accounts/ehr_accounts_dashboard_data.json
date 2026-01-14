@@ -1,0 +1,1322 @@
+{
+  "dashboard": {
+    "totalRevenue": 347161,
+    "pendingPayments": 57055,
+    "outstandingInvoicesCount": 10,
+    "claimsStatus": {
+      "submitted": 35,
+      "approved": 15,
+      "rejected": 11,
+      "pending": 9
+    },
+    "insuranceReimbursements": 217500,
+    "expensesOverview": 1051406,
+    "profitLoss": -704245
+  },
+  "invoices": [
+    {
+      "invoiceId": "INV-1001",
+      "patientName": "Mark Turner",
+      "date": "2025-06-09",
+      "amount": 12495,
+      "status": "Paid",
+      "dueDate": "2025-06-24"
+    },
+    {
+      "invoiceId": "INV-1002",
+      "patientName": "Nancy King",
+      "date": "2025-06-07",
+      "amount": 18562,
+      "status": "Unpaid",
+      "dueDate": "2025-06-22"
+    },
+    {
+      "invoiceId": "INV-1003",
+      "patientName": "Nancy King",
+      "date": "2025-06-22",
+      "amount": 6564,
+      "status": "Unpaid",
+      "dueDate": "2025-07-07"
+    },
+    {
+      "invoiceId": "INV-1004",
+      "patientName": "John Doe",
+      "date": "2025-06-12",
+      "amount": 18552,
+      "status": "Paid",
+      "dueDate": "2025-06-27"
+    },
+    {
+      "invoiceId": "INV-1005",
+      "patientName": "David Lee",
+      "date": "2025-06-22",
+      "amount": 3328,
+      "status": "Paid",
+      "dueDate": "2025-07-07"
+    },
+    {
+      "invoiceId": "INV-1006",
+      "patientName": "Samantha Green",
+      "date": "2025-06-05",
+      "amount": 16769,
+      "status": "Paid",
+      "dueDate": "2025-06-20"
+    },
+    {
+      "invoiceId": "INV-1007",
+      "patientName": "Linda Brown",
+      "date": "2025-07-17",
+      "amount": 19427,
+      "status": "Paid",
+      "dueDate": "2025-08-01"
+    },
+    {
+      "invoiceId": "INV-1008",
+      "patientName": "Karen Scott",
+      "date": "2025-06-18",
+      "amount": 14571,
+      "status": "Partial",
+      "dueDate": "2025-07-03"
+    },
+    {
+      "invoiceId": "INV-1009",
+      "patientName": "Karen Scott",
+      "date": "2025-06-20",
+      "amount": 4490,
+      "status": "Paid",
+      "dueDate": "2025-07-05"
+    },
+    {
+      "invoiceId": "INV-1010",
+      "patientName": "Nancy King",
+      "date": "2025-07-08",
+      "amount": 8582,
+      "status": "Paid",
+      "dueDate": "2025-07-23"
+    },
+    {
+      "invoiceId": "INV-1011",
+      "patientName": "David Lee",
+      "date": "2025-07-12",
+      "amount": 8836,
+      "status": "Partial",
+      "dueDate": "2025-07-27"
+    },
+    {
+      "invoiceId": "INV-1012",
+      "patientName": "Lisa White",
+      "date": "2025-06-08",
+      "amount": 15922,
+      "status": "Paid",
+      "dueDate": "2025-06-23"
+    },
+    {
+      "invoiceId": "INV-1013",
+      "patientName": "Chris Evans",
+      "date": "2025-07-11",
+      "amount": 8922,
+      "status": "Paid",
+      "dueDate": "2025-07-26"
+    },
+    {
+      "invoiceId": "INV-1014",
+      "patientName": "Lisa White",
+      "date": "2025-07-21",
+      "amount": 14899,
+      "status": "Partial",
+      "dueDate": "2025-08-05"
+    },
+    {
+      "invoiceId": "INV-1015",
+      "patientName": "Michael Johnson",
+      "date": "2025-06-15",
+      "amount": 12846,
+      "status": "Unpaid",
+      "dueDate": "2025-06-30"
+    },
+    {
+      "invoiceId": "INV-1016",
+      "patientName": "John Doe",
+      "date": "2025-06-15",
+      "amount": 14385,
+      "status": "Paid",
+      "dueDate": "2025-06-30"
+    },
+    {
+      "invoiceId": "INV-1017",
+      "patientName": "John Doe",
+      "date": "2025-06-29",
+      "amount": 7305,
+      "status": "Paid",
+      "dueDate": "2025-07-14"
+    },
+    {
+      "invoiceId": "INV-1018",
+      "patientName": "Robert Anderson",
+      "date": "2025-06-20",
+      "amount": 7765,
+      "status": "Paid",
+      "dueDate": "2025-07-05"
+    },
+    {
+      "invoiceId": "INV-1019",
+      "patientName": "Linda Brown",
+      "date": "2025-06-25",
+      "amount": 14211,
+      "status": "Partial",
+      "dueDate": "2025-07-10"
+    },
+    {
+      "invoiceId": "INV-1020",
+      "patientName": "Patricia Taylor",
+      "date": "2025-06-13",
+      "amount": 8598,
+      "status": "Unpaid",
+      "dueDate": "2025-06-28"
+    },
+    {
+      "invoiceId": "INV-1021",
+      "patientName": "Paul Harris",
+      "date": "2025-07-11",
+      "amount": 15203,
+      "status": "Paid",
+      "dueDate": "2025-07-26"
+    },
+    {
+      "invoiceId": "INV-1022",
+      "patientName": "Linda Brown",
+      "date": "2025-06-14",
+      "amount": 9526,
+      "status": "Paid",
+      "dueDate": "2025-06-29"
+    },
+    {
+      "invoiceId": "INV-1023",
+      "patientName": "Charles Thomas",
+      "date": "2025-07-11",
+      "amount": 6001,
+      "status": "Paid",
+      "dueDate": "2025-07-26"
+    },
+    {
+      "invoiceId": "INV-1024",
+      "patientName": "Paul Harris",
+      "date": "2025-06-16",
+      "amount": 10657,
+      "status": "Paid",
+      "dueDate": "2025-07-01"
+    },
+    {
+      "invoiceId": "INV-1025",
+      "patientName": "Jane Smith",
+      "date": "2025-06-22",
+      "amount": 14483,
+      "status": "Paid",
+      "dueDate": "2025-07-07"
+    },
+    {
+      "invoiceId": "INV-1026",
+      "patientName": "Emily Clark",
+      "date": "2025-06-10",
+      "amount": 4298,
+      "status": "Paid",
+      "dueDate": "2025-06-25"
+    },
+    {
+      "invoiceId": "INV-1027",
+      "patientName": "Robert Anderson",
+      "date": "2025-07-17",
+      "amount": 12966,
+      "status": "Paid",
+      "dueDate": "2025-08-01"
+    },
+    {
+      "invoiceId": "INV-1028",
+      "patientName": "David Lee",
+      "date": "2025-07-02",
+      "amount": 7602,
+      "status": "Paid",
+      "dueDate": "2025-07-17"
+    },
+    {
+      "invoiceId": "INV-1029",
+      "patientName": "Michael Johnson",
+      "date": "2025-06-04",
+      "amount": 17751,
+      "status": "Paid",
+      "dueDate": "2025-06-19"
+    },
+    {
+      "invoiceId": "INV-1030",
+      "patientName": "Mark Turner",
+      "date": "2025-07-16",
+      "amount": 10214,
+      "status": "Paid",
+      "dueDate": "2025-07-31"
+    },
+    {
+      "invoiceId": "INV-1031",
+      "patientName": "Mark Turner",
+      "date": "2025-07-19",
+      "amount": 18629,
+      "status": "Paid",
+      "dueDate": "2025-08-03"
+    },
+    {
+      "invoiceId": "INV-1032",
+      "patientName": "Chris Evans",
+      "date": "2025-06-04",
+      "amount": 5348,
+      "status": "Paid",
+      "dueDate": "2025-06-19"
+    },
+    {
+      "invoiceId": "INV-1033",
+      "patientName": "Emily Clark",
+      "date": "2025-06-16",
+      "amount": 5965,
+      "status": "Partial",
+      "dueDate": "2025-07-01"
+    },
+    {
+      "invoiceId": "INV-1034",
+      "patientName": "Samantha Green",
+      "date": "2025-07-12",
+      "amount": 10485,
+      "status": "Unpaid",
+      "dueDate": "2025-07-27"
+    },
+    {
+      "invoiceId": "INV-1035",
+      "patientName": "David Lee",
+      "date": "2025-07-06",
+      "amount": 18059,
+      "status": "Paid",
+      "dueDate": "2025-07-21"
+    }
+  ],
+  "payments": [
+    {
+      "paymentId": "PAY-2000",
+      "invoiceId": "INV-1001",
+      "patientName": "Mark Turner",
+      "paymentDate": "2025-06-11",
+      "amountPaid": 12495,
+      "method": "Credit Card"
+    },
+    {
+      "paymentId": "PAY-2001",
+      "invoiceId": "INV-1004",
+      "patientName": "John Doe",
+      "paymentDate": "2025-06-20",
+      "amountPaid": 18552,
+      "method": "Credit Card"
+    },
+    {
+      "paymentId": "PAY-2002",
+      "invoiceId": "INV-1005",
+      "patientName": "David Lee",
+      "paymentDate": "2025-06-24",
+      "amountPaid": 3328,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2003",
+      "invoiceId": "INV-1006",
+      "patientName": "Samantha Green",
+      "paymentDate": "2025-06-06",
+      "amountPaid": 16769,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2004",
+      "invoiceId": "INV-1007",
+      "patientName": "Linda Brown",
+      "paymentDate": "2025-07-22",
+      "amountPaid": 19427,
+      "method": "Cash"
+    },
+    {
+      "paymentId": "PAY-2005",
+      "invoiceId": "INV-1008",
+      "patientName": "Karen Scott",
+      "paymentDate": "2025-06-26",
+      "amountPaid": 4490,
+      "method": "Cheque"
+    },
+    {
+      "paymentId": "PAY-2006",
+      "invoiceId": "INV-1009",
+      "patientName": "Karen Scott",
+      "paymentDate": "2025-06-22",
+      "amountPaid": 4490,
+      "method": "Credit Card"
+    },
+    {
+      "paymentId": "PAY-2007",
+      "invoiceId": "INV-1010",
+      "patientName": "Nancy King",
+      "paymentDate": "2025-07-18",
+      "amountPaid": 8582,
+      "method": "Credit Card"
+    },
+    {
+      "paymentId": "PAY-2008",
+      "invoiceId": "INV-1011",
+      "patientName": "David Lee",
+      "paymentDate": "2025-07-21",
+      "amountPaid": 3189,
+      "method": "Mobile Payment"
+    },
+    {
+      "paymentId": "PAY-2009",
+      "invoiceId": "INV-1012",
+      "patientName": "Lisa White",
+      "paymentDate": "2025-06-13",
+      "amountPaid": 15922,
+      "method": "Cheque"
+    },
+    {
+      "paymentId": "PAY-2010",
+      "invoiceId": "INV-1013",
+      "patientName": "Chris Evans",
+      "paymentDate": "2025-07-12",
+      "amountPaid": 8922,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2011",
+      "invoiceId": "INV-1014",
+      "patientName": "Lisa White",
+      "paymentDate": "2025-07-23",
+      "amountPaid": 5965,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2012",
+      "invoiceId": "INV-1016",
+      "patientName": "John Doe",
+      "paymentDate": "2025-06-21",
+      "amountPaid": 14385,
+      "method": "Mobile Payment"
+    },
+    {
+      "paymentId": "PAY-2013",
+      "invoiceId": "INV-1017",
+      "patientName": "John Doe",
+      "paymentDate": "2025-07-07",
+      "amountPaid": 7305,
+      "method": "Mobile Payment"
+    },
+    {
+      "paymentId": "PAY-2014",
+      "invoiceId": "INV-1018",
+      "patientName": "Robert Anderson",
+      "paymentDate": "2025-06-24",
+      "amountPaid": 7765,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2015",
+      "invoiceId": "INV-1019",
+      "patientName": "Linda Brown",
+      "paymentDate": "2025-07-03",
+      "amountPaid": 7883,
+      "method": "Cheque"
+    },
+    {
+      "paymentId": "PAY-2016",
+      "invoiceId": "INV-1021",
+      "patientName": "Paul Harris",
+      "paymentDate": "2025-07-15",
+      "amountPaid": 15203,
+      "method": "Mobile Payment"
+    },
+    {
+      "paymentId": "PAY-2017",
+      "invoiceId": "INV-1022",
+      "patientName": "Linda Brown",
+      "paymentDate": "2025-06-17",
+      "amountPaid": 9526,
+      "method": "Mobile Payment"
+    },
+    {
+      "paymentId": "PAY-2018",
+      "invoiceId": "INV-1023",
+      "patientName": "Charles Thomas",
+      "paymentDate": "2025-07-14",
+      "amountPaid": 6001,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2019",
+      "invoiceId": "INV-1024",
+      "patientName": "Paul Harris",
+      "paymentDate": "2025-06-20",
+      "amountPaid": 10657,
+      "method": "Cheque"
+    },
+    {
+      "paymentId": "PAY-2020",
+      "invoiceId": "INV-1025",
+      "patientName": "Jane Smith",
+      "paymentDate": "2025-07-01",
+      "amountPaid": 14483,
+      "method": "Credit Card"
+    },
+    {
+      "paymentId": "PAY-2021",
+      "invoiceId": "INV-1026",
+      "patientName": "Emily Clark",
+      "paymentDate": "2025-06-16",
+      "amountPaid": 4298,
+      "method": "Cash"
+    },
+    {
+      "paymentId": "PAY-2022",
+      "invoiceId": "INV-1027",
+      "patientName": "Robert Anderson",
+      "paymentDate": "2025-07-24",
+      "amountPaid": 12966,
+      "method": "Cash"
+    },
+    {
+      "paymentId": "PAY-2023",
+      "invoiceId": "INV-1028",
+      "patientName": "David Lee",
+      "paymentDate": "2025-07-06",
+      "amountPaid": 7602,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2024",
+      "invoiceId": "INV-1029",
+      "patientName": "Michael Johnson",
+      "paymentDate": "2025-06-10",
+      "amountPaid": 17751,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2025",
+      "invoiceId": "INV-1030",
+      "patientName": "Mark Turner",
+      "paymentDate": "2025-07-19",
+      "amountPaid": 10214,
+      "method": "Cash"
+    },
+    {
+      "paymentId": "PAY-2026",
+      "invoiceId": "INV-1031",
+      "patientName": "Mark Turner",
+      "paymentDate": "2025-07-27",
+      "amountPaid": 18629,
+      "method": "Cheque"
+    },
+    {
+      "paymentId": "PAY-2027",
+      "invoiceId": "INV-1032",
+      "patientName": "Chris Evans",
+      "paymentDate": "2025-06-05",
+      "amountPaid": 5348,
+      "method": "Online Transfer"
+    },
+    {
+      "paymentId": "PAY-2028",
+      "invoiceId": "INV-1033",
+      "patientName": "Emily Clark",
+      "paymentDate": "2025-06-24",
+      "amountPaid": 3363,
+      "method": "Mobile Payment"
+    },
+    {
+      "paymentId": "PAY-2029",
+      "invoiceId": "INV-1035",
+      "patientName": "David Lee",
+      "paymentDate": "2025-07-12",
+      "amountPaid": 18059,
+      "method": "Credit Card"
+    }
+  ],
+  "Refunds": [
+    {
+      "claimId": "CLM-3001",
+      "patientName": "Mark Turner",
+      "dateSubmitted": "2025-07-12",
+      "amountClaimed": 17438,
+      "status": "Approved",
+      "insuranceCompany": "HealthPlus"
+    },
+    {
+      "claimId": "CLM-3002",
+      "patientName": "Linda Brown",
+      "dateSubmitted": "2025-06-16",
+      "amountClaimed": 12301,
+      "status": "Pending",
+      "insuranceCompany": "WellCare"
+    },
+    {
+      "claimId": "CLM-3003",
+      "patientName": "Charles Thomas",
+      "dateSubmitted": "2025-07-12",
+      "amountClaimed": 16051,
+      "status": "Rejected",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3004",
+      "patientName": "John Doe",
+      "dateSubmitted": "2025-06-21",
+      "amountClaimed": 14754,
+      "status": "Pending",
+      "insuranceCompany": "WellCare"
+    },
+    {
+      "claimId": "CLM-3005",
+      "patientName": "Patricia Taylor",
+      "dateSubmitted": "2025-07-25",
+      "amountClaimed": 10760,
+      "status": "Rejected",
+      "insuranceCompany": "HealthPlus"
+    },
+    {
+      "claimId": "CLM-3006",
+      "patientName": "Emily Clark",
+      "dateSubmitted": "2025-07-02",
+      "amountClaimed": 5282,
+      "status": "Rejected",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3007",
+      "patientName": "Michael Johnson",
+      "dateSubmitted": "2025-06-26",
+      "amountClaimed": 7408,
+      "status": "Rejected",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3008",
+      "patientName": "George Wright",
+      "dateSubmitted": "2025-07-08",
+      "amountClaimed": 10275,
+      "status": "Approved",
+      "insuranceCompany": "HealthPlus"
+    },
+    {
+      "claimId": "CLM-3009",
+      "patientName": "Michael Johnson",
+      "dateSubmitted": "2025-06-19",
+      "amountClaimed": 17246,
+      "status": "Approved",
+      "insuranceCompany": "HealthPlus"
+    },
+    {
+      "claimId": "CLM-3010",
+      "patientName": "James Wilson",
+      "dateSubmitted": "2025-07-01",
+      "amountClaimed": 11323,
+      "status": "Approved",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3011",
+      "patientName": "Chris Evans",
+      "dateSubmitted": "2025-07-10",
+      "amountClaimed": 4701,
+      "status": "Approved",
+      "insuranceCompany": "MediCover"
+    },
+    {
+      "claimId": "CLM-3012",
+      "patientName": "John Doe",
+      "dateSubmitted": "2025-07-12",
+      "amountClaimed": 18686,
+      "status": "Approved",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3013",
+      "patientName": "Karen Scott",
+      "dateSubmitted": "2025-06-11",
+      "amountClaimed": 14454,
+      "status": "Approved",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3014",
+      "patientName": "Charles Thomas",
+      "dateSubmitted": "2025-06-08",
+      "amountClaimed": 3381,
+      "status": "Rejected",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3015",
+      "patientName": "Samantha Green",
+      "dateSubmitted": "2025-06-30",
+      "amountClaimed": 16569,
+      "status": "Rejected",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3016",
+      "patientName": "Jessica Martinez",
+      "dateSubmitted": "2025-06-04",
+      "amountClaimed": 17277,
+      "status": "Approved",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3017",
+      "patientName": "Paul Harris",
+      "dateSubmitted": "2025-07-11",
+      "amountClaimed": 7791,
+      "status": "Pending",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3018",
+      "patientName": "Lisa White",
+      "dateSubmitted": "2025-07-18",
+      "amountClaimed": 19169,
+      "status": "Approved",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3019",
+      "patientName": "Linda Brown",
+      "dateSubmitted": "2025-06-28",
+      "amountClaimed": 12881,
+      "status": "Pending",
+      "insuranceCompany": "HealthPlus"
+    },
+    {
+      "claimId": "CLM-3020",
+      "patientName": "Patricia Taylor",
+      "dateSubmitted": "2025-06-19",
+      "amountClaimed": 12360,
+      "status": "Rejected",
+      "insuranceCompany": "HealthPlus"
+    },
+    {
+      "claimId": "CLM-3021",
+      "patientName": "Jane Smith",
+      "dateSubmitted": "2025-06-23",
+      "amountClaimed": 9270,
+      "status": "Pending",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3022",
+      "patientName": "Chris Evans",
+      "dateSubmitted": "2025-06-26",
+      "amountClaimed": 10899,
+      "status": "Rejected",
+      "insuranceCompany": "WellCare"
+    },
+    {
+      "claimId": "CLM-3023",
+      "patientName": "Nancy King",
+      "dateSubmitted": "2025-06-28",
+      "amountClaimed": 8471,
+      "status": "Rejected",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3024",
+      "patientName": "George Wright",
+      "dateSubmitted": "2025-06-14",
+      "amountClaimed": 11642,
+      "status": "Pending",
+      "insuranceCompany": "WellCare"
+    },
+    {
+      "claimId": "CLM-3025",
+      "patientName": "Patricia Taylor",
+      "dateSubmitted": "2025-07-08",
+      "amountClaimed": 8622,
+      "status": "Rejected",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3026",
+      "patientName": "David Lee",
+      "dateSubmitted": "2025-06-03",
+      "amountClaimed": 18714,
+      "status": "Approved",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3027",
+      "patientName": "Lisa White",
+      "dateSubmitted": "2025-07-23",
+      "amountClaimed": 13342,
+      "status": "Pending",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3028",
+      "patientName": "Paul Harris",
+      "dateSubmitted": "2025-06-16",
+      "amountClaimed": 16830,
+      "status": "Approved",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3029",
+      "patientName": "Paul Harris",
+      "dateSubmitted": "2025-06-23",
+      "amountClaimed": 18729,
+      "status": "Approved",
+      "insuranceCompany": "MediCover"
+    },
+    {
+      "claimId": "CLM-3030",
+      "patientName": "Emily Clark",
+      "dateSubmitted": "2025-06-24",
+      "amountClaimed": 14295,
+      "status": "Pending",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3031",
+      "patientName": "Paul Harris",
+      "dateSubmitted": "2025-07-02",
+      "amountClaimed": 12871,
+      "status": "Approved",
+      "insuranceCompany": "WellCare"
+    },
+    {
+      "claimId": "CLM-3032",
+      "patientName": "Karen Scott",
+      "dateSubmitted": "2025-07-16",
+      "amountClaimed": 3725,
+      "status": "Approved",
+      "insuranceCompany": "SecureLife"
+    },
+    {
+      "claimId": "CLM-3033",
+      "patientName": "Chris Evans",
+      "dateSubmitted": "2025-06-28",
+      "amountClaimed": 17342,
+      "status": "Rejected",
+      "insuranceCompany": "CareHealth"
+    },
+    {
+      "claimId": "CLM-3034",
+      "patientName": "Karen Scott",
+      "dateSubmitted": "2025-07-22",
+      "amountClaimed": 16062,
+      "status": "Approved",
+      "insuranceCompany": "MediCover"
+    },
+    {
+      "claimId": "CLM-3035",
+      "patientName": "Emily Clark",
+      "dateSubmitted": "2025-07-02",
+      "amountClaimed": 6158,
+      "status": "Pending",
+      "insuranceCompany": "HealthPlus"
+    }
+  ],
+  "expenses": [
+    {
+      "expenseId": "EXP-4001",
+      "category": "Cleaning Services",
+      "amount": 35131,
+      "date": "2025-06-27",
+      "description": "Expense for cleaning services"
+    },
+    {
+      "expenseId": "EXP-4002",
+      "category": "Medical Supplies",
+      "amount": 24019,
+      "date": "2025-07-23",
+      "description": "Expense for medical supplies"
+    },
+    {
+      "expenseId": "EXP-4003",
+      "category": "Equipment Maintenance",
+      "amount": 26513,
+      "date": "2025-07-10",
+      "description": "Expense for equipment maintenance"
+    },
+    {
+      "expenseId": "EXP-4004",
+      "category": "Staff Salaries",
+      "amount": 2384,
+      "date": "2025-07-09",
+      "description": "Expense for staff salaries"
+    },
+    {
+      "expenseId": "EXP-4005",
+      "category": "Travel Expenses",
+      "amount": 25695,
+      "date": "2025-07-25",
+      "description": "Expense for travel expenses"
+    },
+    {
+      "expenseId": "EXP-4006",
+      "category": "Cleaning Services",
+      "amount": 49837,
+      "date": "2025-06-03",
+      "description": "Expense for cleaning services"
+    },
+    {
+      "expenseId": "EXP-4007",
+      "category": "Travel Expenses",
+      "amount": 3318,
+      "date": "2025-06-20",
+      "description": "Expense for travel expenses"
+    },
+    {
+      "expenseId": "EXP-4008",
+      "category": "Training",
+      "amount": 14378,
+      "date": "2025-06-15",
+      "description": "Expense for training"
+    },
+    {
+      "expenseId": "EXP-4009",
+      "category": "Medical Supplies",
+      "amount": 36800,
+      "date": "2025-06-11",
+      "description": "Expense for medical supplies"
+    },
+    {
+      "expenseId": "EXP-4010",
+      "category": "Software Licenses",
+      "amount": 28373,
+      "date": "2025-06-06",
+      "description": "Expense for software licenses"
+    },
+    {
+      "expenseId": "EXP-4011",
+      "category": "Office Supplies",
+      "amount": 11627,
+      "date": "2025-07-20",
+      "description": "Expense for office supplies"
+    },
+    {
+      "expenseId": "EXP-4012",
+      "category": "Training",
+      "amount": 18592,
+      "date": "2025-06-23",
+      "description": "Expense for training"
+    },
+    {
+      "expenseId": "EXP-4013",
+      "category": "Travel Expenses",
+      "amount": 21608,
+      "date": "2025-06-27",
+      "description": "Expense for travel expenses"
+    },
+    {
+      "expenseId": "EXP-4014",
+      "category": "Staff Salaries",
+      "amount": 49474,
+      "date": "2025-06-08",
+      "description": "Expense for staff salaries"
+    },
+    {
+      "expenseId": "EXP-4015",
+      "category": "Software Licenses",
+      "amount": 44908,
+      "date": "2025-06-11",
+      "description": "Expense for software licenses"
+    },
+    {
+      "expenseId": "EXP-4016",
+      "category": "Medical Supplies",
+      "amount": 48089,
+      "date": "2025-06-07",
+      "description": "Expense for medical supplies"
+    },
+    {
+      "expenseId": "EXP-4017",
+      "category": "Software Licenses",
+      "amount": 9545,
+      "date": "2025-07-09",
+      "description": "Expense for software licenses"
+    },
+    {
+      "expenseId": "EXP-4018",
+      "category": "Travel Expenses",
+      "amount": 49059,
+      "date": "2025-06-15",
+      "description": "Expense for travel expenses"
+    },
+    {
+      "expenseId": "EXP-4019",
+      "category": "Utilities",
+      "amount": 40038,
+      "date": "2025-07-21",
+      "description": "Expense for utilities"
+    },
+    {
+      "expenseId": "EXP-4020",
+      "category": "Travel Expenses",
+      "amount": 6088,
+      "date": "2025-06-28",
+      "description": "Expense for travel expenses"
+    },
+    {
+      "expenseId": "EXP-4021",
+      "category": "Cleaning Services",
+      "amount": 39257,
+      "date": "2025-06-07",
+      "description": "Expense for cleaning services"
+    },
+    {
+      "expenseId": "EXP-4022",
+      "category": "Staff Salaries",
+      "amount": 34055,
+      "date": "2025-07-06",
+      "description": "Expense for staff salaries"
+    },
+    {
+      "expenseId": "EXP-4023",
+      "category": "Medical Supplies",
+      "amount": 3811,
+      "date": "2025-06-24",
+      "description": "Expense for medical supplies"
+    },
+    {
+      "expenseId": "EXP-4024",
+      "category": "Training",
+      "amount": 34429,
+      "date": "2025-07-01",
+      "description": "Expense for training"
+    },
+    {
+      "expenseId": "EXP-4025",
+      "category": "Software Licenses",
+      "amount": 28502,
+      "date": "2025-07-04",
+      "description": "Expense for software licenses"
+    },
+    {
+      "expenseId": "EXP-4026",
+      "category": "Office Supplies",
+      "amount": 18302,
+      "date": "2025-06-14",
+      "description": "Expense for office supplies"
+    },
+    {
+      "expenseId": "EXP-4027",
+      "category": "Travel Expenses",
+      "amount": 48759,
+      "date": "2025-07-04",
+      "description": "Expense for travel expenses"
+    },
+    {
+      "expenseId": "EXP-4028",
+      "category": "Equipment Maintenance",
+      "amount": 31700,
+      "date": "2025-07-22",
+      "description": "Expense for equipment maintenance"
+    },
+    {
+      "expenseId": "EXP-4029",
+      "category": "Equipment Maintenance",
+      "amount": 7358,
+      "date": "2025-07-14",
+      "description": "Expense for equipment maintenance"
+    },
+    {
+      "expenseId": "EXP-4030",
+      "category": "Training",
+      "amount": 49410,
+      "date": "2025-06-07",
+      "description": "Expense for training"
+    },
+    {
+      "expenseId": "EXP-4031",
+      "category": "Medical Supplies",
+      "amount": 13365,
+      "date": "2025-07-24",
+      "description": "Expense for medical supplies"
+    },
+    {
+      "expenseId": "EXP-4032",
+      "category": "Equipment Maintenance",
+      "amount": 9320,
+      "date": "2025-06-09",
+      "description": "Expense for equipment maintenance"
+    },
+    {
+      "expenseId": "EXP-4033",
+      "category": "Office Supplies",
+      "amount": 25630,
+      "date": "2025-06-09",
+      "description": "Expense for office supplies"
+    },
+    {
+      "expenseId": "EXP-4034",
+      "category": "Utilities",
+      "amount": 12797,
+      "date": "2025-06-24",
+      "description": "Expense for utilities"
+    },
+    {
+      "expenseId": "EXP-4035",
+      "category": "Equipment Maintenance",
+      "amount": 30867,
+      "date": "2025-06-17",
+      "description": "Expense for equipment maintenance"
+    },
+    {
+      "expenseId": "EXP-4036",
+      "category": "Software Licenses",
+      "amount": 5190,
+      "date": "2025-06-17",
+      "description": "Expense for software licenses"
+    },
+    {
+      "expenseId": "EXP-4037",
+      "category": "Training",
+      "amount": 5052,
+      "date": "2025-07-08",
+      "description": "Expense for training"
+    },
+    {
+      "expenseId": "EXP-4038",
+      "category": "Medical Supplies",
+      "amount": 38748,
+      "date": "2025-07-02",
+      "description": "Expense for medical supplies"
+    },
+    {
+      "expenseId": "EXP-4039",
+      "category": "Medical Supplies",
+      "amount": 29025,
+      "date": "2025-06-18",
+      "description": "Expense for medical supplies"
+    },
+    {
+      "expenseId": "EXP-4040",
+      "category": "Travel Expenses",
+      "amount": 40353,
+      "date": "2025-07-10",
+      "description": "Expense for travel expenses"
+    }
+  ],
+  "users": [
+    {
+      "userId": "USR-5000",
+      "name": "Alice Walker",
+      "role": "Accounts Manager",
+      "email": "alice.walker@hospital.org"
+    },
+    {
+      "userId": "USR-5001",
+      "name": "Bob Martin",
+      "role": "Billing Specialist",
+      "email": "bob.martin@hospital.org"
+    },
+    {
+      "userId": "USR-5002",
+      "name": "Catherine Hill",
+      "role": "Insurance Coordinator",
+      "email": "catherine.hill@hospital.org"
+    },
+    {
+      "userId": "USR-5003",
+      "name": "Daniel Carter",
+      "role": "Expense Manager",
+      "email": "daniel.carter@hospital.org"
+    },
+    {
+      "userId": "USR-5004",
+      "name": "Evelyn Lee",
+      "role": "Accounts Assistant",
+      "email": "evelyn.lee@hospital.org"
+    },
+    {
+      "userId": "USR-5005",
+      "name": "Frank Moore",
+      "role": "Claims Analyst",
+      "email": "frank.moore@hospital.org"
+    },
+    {
+      "userId": "USR-5006",
+      "name": "Grace Young",
+      "role": "Financial Auditor",
+      "email": "grace.young@hospital.org"
+    },
+    {
+      "userId": "USR-5007",
+      "name": "Hannah Hall",
+      "role": "Payment Processor",
+      "email": "hannah.hall@hospital.org"
+    },
+    {
+      "userId": "USR-5008",
+      "name": "Ian Walker",
+      "role": "Collections Specialist",
+      "email": "ian.walker@hospital.org"
+    },
+    {
+      "userId": "USR-5009",
+      "name": "Julia Allen",
+      "role": "Payroll Coordinator",
+      "email": "julia.allen@hospital.org"
+    }
+  ],
+  "reportsSummary": {
+    "monthlyRevenue": [
+      {
+        "month": "January",
+        "amount": 206589
+      },
+      {
+        "month": "February",
+        "amount": 204236
+      },
+      {
+        "month": "March",
+        "amount": 219676
+      },
+      {
+        "month": "April",
+        "amount": 198219
+      },
+      {
+        "month": "May",
+        "amount": 204758
+      },
+      {
+        "month": "June",
+        "amount": 209637
+      }
+    ],
+    "monthlyExpenses": [
+      {
+        "month": "January",
+        "amount": 53404
+      },
+      {
+        "month": "February",
+        "amount": 53661
+      },
+      {
+        "month": "March",
+        "amount": 59419
+      },
+      {
+        "month": "April",
+        "amount": 51586
+      },
+      {
+        "month": "May",
+        "amount": 47508
+      },
+      {
+        "month": "June",
+        "amount": 49424
+      }
+    ]
+  },
+  
+  "Insurance": {
+    "claimList": [
+      {
+        "claimId": "CLM-3001",
+        "patientName": "Mark Turner",
+        "dateSubmitted": "2025-07-12",
+        "amountClaimed": 17438,
+        "status": "Approved",
+        "insuranceCompany": "HealthPlus"
+      },
+      {
+        "claimId": "CLM-3002",
+        "patientName": "Julia Smith",
+        "dateSubmitted": "2025-07-14",
+        "amountClaimed": 12999,
+        "status": "Pending",
+        "insuranceCompany": "MediCover"
+      },
+      {
+        "claimId": "CLM-3003",
+        "patientName": "John Doe",
+        "dateSubmitted": "2025-07-15",
+        "amountClaimed": 20500,
+        "status": "Rejected",
+        "insuranceCompany": "SafeGuard"
+      }
+    ],
+
+    "claimReports": [
+      {
+        "claimId": "CLM-3001",
+        "patientName": "Mark Turner",
+        "insuranceCompany": "HealthPlus",
+        "dateSubmitted": "2025-07-12",
+        "status": "Approved",
+        "amountClaimed": 17438,
+        "amountApproved": 17000,
+        "approvalDate": "2025-07-20",
+        "claimDetails": {
+          "hospital": "City Hospital",
+          "treatment": "Knee Surgery",
+          "treatmentDate": "2025-06-30",
+          "doctor": "Dr. Smith",
+          "diagnosis": "Torn ligament",
+          "documentsSubmitted": [
+            "invoice_123.pdf",
+            "doctor_report_123.pdf",
+            "discharge_summary_123.pdf"
+          ]
+        },
+        "notes": "Claim approved after review. Partial amount disbursed."
+      },
+      {
+        "claimId": "CLM-3002",
+        "patientName": "Julia Smith",
+        "insuranceCompany": "MediCover",
+        "dateSubmitted": "2025-07-14",
+        "status": "Pending",
+        "amountClaimed": 12999,
+        "amountApproved": null,
+        "approvalDate": null,
+        "claimDetails": {
+          "hospital": "Green Valley Clinic",
+          "treatment": "Appendectomy",
+          "treatmentDate": "2025-07-01",
+          "doctor": "Dr. Adams",
+          "diagnosis": "Appendicitis",
+          "documentsSubmitted": [
+            "invoice_456.pdf",
+            "doctor_report_456.pdf"
+          ]
+        },
+        "notes": "Claim is under review."
+      },
+      {
+        "claimId": "CLM-3003",
+        "patientName": "John Doe",
+        "insuranceCompany": "SafeGuard",
+        "dateSubmitted": "2025-07-15",
+        "status": "Rejected",
+        "amountClaimed": 20500,
+        "amountApproved": 0,
+        "approvalDate": "2025-07-22",
+        "claimDetails": {
+          "hospital": "Central Medical",
+          "treatment": "Fracture Treatment",
+          "treatmentDate": "2025-07-05",
+          "doctor": "Dr. Lee",
+          "diagnosis": "Leg fracture",
+          "documentsSubmitted": [
+            "invoice_789.pdf",
+            "doctor_report_789.pdf",
+            "xray_789.pdf"
+          ]
+        },
+        "notes": "Claim rejected due to incomplete documentation."
+      }
+    ]
+  }
+
+
+}

@@ -1,0 +1,115 @@
+{
+  "labInventory": {
+    "consumablesAndReagents": [
+      {
+        "itemId": "CR-001",
+        "itemName": "EDTA Blood Collection Tubes",
+        "category": "Consumables",
+        "quantityInStock": 500,
+        "unit": "pcs",
+        "minStockThreshold": 100,
+        "supplier": "MedSupply Pvt Ltd",
+        "purchaseDate": "2025-06-25",
+        "expiryDate": "2026-06-24",
+        "pricePerUnit": 5.5,
+        "location": "Rack A1",
+        "status": "Available"
+      },
+      {
+        "itemId": "CR-002",
+        "itemName": "Glucose Reagent",
+        "category": "Reagents",
+        "quantityInStock": 20,
+        "unit": "bottles",
+        "minStockThreshold": 10,
+        "supplier": "BioChem Corp",
+        "purchaseDate": "2025-07-10",
+        "expiryDate": "2026-01-10",
+        "pricePerUnit": 450,
+        "location": "Fridge R2",
+        "status": "Available"
+      },
+      {
+        "itemId": "CR-003",
+        "itemName": "Alcohol Swabs",
+        "category": "Consumables",
+        "quantityInStock": 0,
+        "unit": "boxes",
+        "minStockThreshold": 5,
+        "supplier": "PharmaAid",
+        "purchaseDate": "2025-05-12",
+        "expiryDate": "2026-05-11",
+        "pricePerUnit": 120,
+        "location": "Cabinet C3",
+        "status": "Out of Stock"
+      },
+      {
+        "itemId": "CR-004",
+        "itemName": "PCR Kit",
+        "category": "Kits",
+        "quantityInStock": 3,
+        "unit": "kits",
+        "minStockThreshold": 2,
+        "supplier": "GeneTech",
+        "purchaseDate": "2025-06-01",
+        "expiryDate": "2025-12-01",
+        "pricePerUnit": 3200,
+        "location": "Cold Storage",
+        "status": "Low Stock"
+      }
+    ],
+    "equipment": [
+      {
+        "equipmentId": "EQ-001",
+        "equipmentName": "CBC Analyzer",
+        "model": "XN-550",
+        "manufacturer": "Sysmex",
+        "category": "Hematology Equipment",
+        "quantityAvailable": 2,
+        "minRequired": 1,
+        "location": "Room EQ-01",
+        "purchaseDate": "2023-03-15",
+        "warrantyUntil": "2026-03-15",
+        "lastMaintenanceDate": "2025-06-15",
+        "maintenanceDue": "2025-09-15",
+        "condition": "Good",
+        "pricePerUnit": 125000,
+        "status": "Available"
+      },
+      {
+        "equipmentId": "EQ-002",
+        "equipmentName": "Centrifuge Machine",
+        "model": "SpinMax-400",
+        "manufacturer": "LabX Technologies",
+        "category": "Sample Processing",
+        "quantityAvailable": 1,
+        "minRequired": 1,
+        "location": "Processing Room 2",
+        "purchaseDate": "2022-09-01",
+        "warrantyUntil": "2025-09-01",
+        "lastMaintenanceDate": "2025-06-01",
+        "maintenanceDue": "2025-08-01",
+        "condition": "Needs Service",
+        "pricePerUnit": 85000,
+        "status": "Low Availability"
+      },
+      {
+        "equipmentId": "EQ-003",
+        "equipmentName": "ELISA Reader",
+        "model": "BioScan ELR3000",
+        "manufacturer": "BioScan",
+        "category": "Immunology Equipment",
+        "quantityAvailable": 0,
+        "minRequired": 1,
+        "location": "Lab EQ Room",
+        "purchaseDate": "2021-02-15",
+        "warrantyUntil": "2024-02-15",
+        "lastMaintenanceDate": "2025-05-10",
+        "maintenanceDue": "2025-08-10",
+        "condition": "Out of Service",
+        "pricePerUnit": 160000,
+        "status": "Unavailable"
+      }
+    ]
+  }
+}

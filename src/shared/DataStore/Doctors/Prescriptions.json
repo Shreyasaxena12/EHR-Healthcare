@@ -1,0 +1,814 @@
+[
+  {
+    "prescriptionId": "PRX10001",
+    "patientId": "P20001",
+    "doctorId": "D1001",
+    "patientName": "Patient 1",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-01",
+    "visitType": "Outpatient",
+    "diagnosis": "Asthma",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Atorvastatin",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "duration": "13 days",
+        "instructions": "At bedtime",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-29",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10001.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10001.pdf"
+      }
+    ],
+    "createdAt": "2025-07-01T00:00:00Z",
+    "updatedAt": "2025-07-01T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10002",
+    "patientId": "P20002",
+    "doctorId": "D1001",
+    "patientName": "Patient 2",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-02",
+    "visitType": "Outpatient",
+    "diagnosis": "Gastric issues",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Telmisartan",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "duration": "13 days",
+        "instructions": "In the morning",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Metformin",
+        "dosage": "500mg",
+        "frequency": "Twice daily",
+        "duration": "7 days",
+        "instructions": "Before meals",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "6 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-18",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10002.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10002.pdf"
+      }
+    ],
+    "createdAt": "2025-07-02T00:00:00Z",
+    "updatedAt": "2025-07-02T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10003",
+    "patientId": "P20003",
+    "doctorId": "D1001",
+    "patientName": "Patient 3",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-03",
+    "visitType": "Inpatient",
+    "diagnosis": "Gastric issues",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "7 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Omeprazole",
+        "dosage": "20mg",
+        "frequency": "Once daily",
+        "duration": "15 days",
+        "instructions": "Before breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "9 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-12",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10003.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10003.pdf"
+      }
+    ],
+    "createdAt": "2025-07-03T00:00:00Z",
+    "updatedAt": "2025-07-03T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10004",
+    "patientId": "P20004",
+    "doctorId": "D1001",
+    "patientName": "Patient 4",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-04",
+    "visitType": "Outpatient",
+    "diagnosis": "Gastric issues",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Metformin",
+        "dosage": "500mg",
+        "frequency": "Twice daily",
+        "duration": "7 days",
+        "instructions": "Before meals",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-29",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10004.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10004.pdf"
+      }
+    ],
+    "createdAt": "2025-07-04T00:00:00Z",
+    "updatedAt": "2025-07-04T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10005",
+    "patientId": "P20005",
+    "doctorId": "D1001",
+    "patientName": "Patient 5",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-05",
+    "visitType": "Outpatient",
+    "diagnosis": "Gastric issues",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "3 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Ibuprofen",
+        "dosage": "400mg",
+        "frequency": "Twice daily",
+        "duration": "6 days",
+        "instructions": "With food",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Telmisartan",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "duration": "3 days",
+        "instructions": "In the morning",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-30",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10005.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10005.pdf"
+      }
+    ],
+    "createdAt": "2025-07-05T00:00:00Z",
+    "updatedAt": "2025-07-05T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10006",
+    "patientId": "P20006",
+    "doctorId": "D1001",
+    "patientName": "Patient 6",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-06",
+    "visitType": "Outpatient",
+    "diagnosis": "Chest Pain",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "14 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "6 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Omeprazole",
+        "dosage": "20mg",
+        "frequency": "Once daily",
+        "duration": "3 days",
+        "instructions": "Before breakfast",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-08-05",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10006.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10006.pdf"
+      }
+    ],
+    "createdAt": "2025-07-06T00:00:00Z",
+    "updatedAt": "2025-07-06T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10007",
+    "patientId": "P20007",
+    "doctorId": "D1001",
+    "patientName": "Patient 7",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-07",
+    "visitType": "Inpatient",
+    "diagnosis": "Diabetes",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Telmisartan",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "duration": "11 days",
+        "instructions": "In the morning",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "3 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-27",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10007.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10007.pdf"
+      }
+    ],
+    "createdAt": "2025-07-07T00:00:00Z",
+    "updatedAt": "2025-07-07T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10008",
+    "patientId": "P20008",
+    "doctorId": "D1001",
+    "patientName": "Patient 8",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-08",
+    "visitType": "Outpatient",
+    "diagnosis": "Asthma",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "15 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Ibuprofen",
+        "dosage": "400mg",
+        "frequency": "Twice daily",
+        "duration": "3 days",
+        "instructions": "With food",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-16",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10008.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10008.pdf"
+      }
+    ],
+    "createdAt": "2025-07-08T00:00:00Z",
+    "updatedAt": "2025-07-08T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10009",
+    "patientId": "P20009",
+    "doctorId": "D1001",
+    "patientName": "Patient 9",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-09",
+    "visitType": "Inpatient",
+    "diagnosis": "Back Pain",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Atorvastatin",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "duration": "15 days",
+        "instructions": "At bedtime",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "6 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-31",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10009.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10009.pdf"
+      }
+    ],
+    "createdAt": "2025-07-09T00:00:00Z",
+    "updatedAt": "2025-07-09T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10010",
+    "patientId": "P20010",
+    "doctorId": "D1001",
+    "patientName": "Patient 10",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-10",
+    "visitType": "Outpatient",
+    "diagnosis": "Gastric issues",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "14 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "7 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Atorvastatin",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "duration": "10 days",
+        "instructions": "At bedtime",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-20",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10010.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10010.pdf"
+      }
+    ],
+    "createdAt": "2025-07-10T00:00:00Z",
+    "updatedAt": "2025-07-10T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10011",
+    "patientId": "P20011",
+    "doctorId": "D1001",
+    "patientName": "Patient 11",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-11",
+    "visitType": "Outpatient",
+    "diagnosis": "Chest Pain",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "11 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Telmisartan",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "duration": "13 days",
+        "instructions": "In the morning",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "4 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-19",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10011.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10011.pdf"
+      }
+    ],
+    "createdAt": "2025-07-11T00:00:00Z",
+    "updatedAt": "2025-07-11T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10012",
+    "patientId": "P20012",
+    "doctorId": "D1001",
+    "patientName": "Patient 12",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-12",
+    "visitType": "Outpatient",
+    "diagnosis": "Gastric issues",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Telmisartan",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "duration": "15 days",
+        "instructions": "In the morning",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-08-04",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10012.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10012.pdf"
+      }
+    ],
+    "createdAt": "2025-07-12T00:00:00Z",
+    "updatedAt": "2025-07-12T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10013",
+    "patientId": "P20013",
+    "doctorId": "D1001",
+    "patientName": "Patient 13",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-13",
+    "visitType": "Outpatient",
+    "diagnosis": "Asthma",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Atorvastatin",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "duration": "13 days",
+        "instructions": "At bedtime",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-08-06",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10013.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10013.pdf"
+      }
+    ],
+    "createdAt": "2025-07-13T00:00:00Z",
+    "updatedAt": "2025-07-13T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10014",
+    "patientId": "P20014",
+    "doctorId": "D1001",
+    "patientName": "Patient 14",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-14",
+    "visitType": "Inpatient",
+    "diagnosis": "Diabetes",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "14 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-08-07",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10014.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10014.pdf"
+      }
+    ],
+    "createdAt": "2025-07-14T00:00:00Z",
+    "updatedAt": "2025-07-14T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10015",
+    "patientId": "P20015",
+    "doctorId": "D1001",
+    "patientName": "Patient 15",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-15",
+    "visitType": "Inpatient",
+    "diagnosis": "Asthma",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Telmisartan",
+        "dosage": "40mg",
+        "frequency": "Once daily",
+        "duration": "3 days",
+        "instructions": "In the morning",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Ibuprofen",
+        "dosage": "400mg",
+        "frequency": "Twice daily",
+        "duration": "7 days",
+        "instructions": "With food",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-23",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10015.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10015.pdf"
+      }
+    ],
+    "createdAt": "2025-07-15T00:00:00Z",
+    "updatedAt": "2025-07-15T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10016",
+    "patientId": "P20016",
+    "doctorId": "D1001",
+    "patientName": "Patient 16",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-16",
+    "visitType": "Outpatient",
+    "diagnosis": "Migraine",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "5 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "6 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Metformin",
+        "dosage": "500mg",
+        "frequency": "Twice daily",
+        "duration": "8 days",
+        "instructions": "Before meals",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-24",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10016.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10016.pdf"
+      }
+    ],
+    "createdAt": "2025-07-16T00:00:00Z",
+    "updatedAt": "2025-07-16T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10017",
+    "patientId": "P20017",
+    "doctorId": "D1001",
+    "patientName": "Patient 17",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-17",
+    "visitType": "Inpatient",
+    "diagnosis": "Chest Pain",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Ibuprofen",
+        "dosage": "400mg",
+        "frequency": "Twice daily",
+        "duration": "14 days",
+        "instructions": "With food",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Omeprazole",
+        "dosage": "20mg",
+        "frequency": "Once daily",
+        "duration": "12 days",
+        "instructions": "Before breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "15 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-07-29",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10017.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10017.pdf"
+      }
+    ],
+    "createdAt": "2025-07-17T00:00:00Z",
+    "updatedAt": "2025-07-17T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10018",
+    "patientId": "P20018",
+    "doctorId": "D1001",
+    "patientName": "Patient 18",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-18",
+    "visitType": "Inpatient",
+    "diagnosis": "Diabetes",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Metformin",
+        "dosage": "500mg",
+        "frequency": "Twice daily",
+        "duration": "4 days",
+        "instructions": "Before meals",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Paracetamol",
+        "dosage": "500mg",
+        "frequency": "Thrice daily",
+        "duration": "9 days",
+        "instructions": "After meals",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Azithromycin",
+        "dosage": "250mg",
+        "frequency": "Once daily",
+        "duration": "13 days",
+        "instructions": "Before food",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-08-05",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10018.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10018.pdf"
+      }
+    ],
+    "createdAt": "2025-07-18T00:00:00Z",
+    "updatedAt": "2025-07-18T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10019",
+    "patientId": "P20019",
+    "doctorId": "D1001",
+    "patientName": "Patient 19",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-19",
+    "visitType": "Inpatient",
+    "diagnosis": "Gastric issues",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Ibuprofen",
+        "dosage": "400mg",
+        "frequency": "Twice daily",
+        "duration": "6 days",
+        "instructions": "With food",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Atorvastatin",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "duration": "4 days",
+        "instructions": "At bedtime",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-08-15",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10019.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10019.pdf"
+      }
+    ],
+    "createdAt": "2025-07-19T00:00:00Z",
+    "updatedAt": "2025-07-19T00:05:00Z"
+  },
+  {
+    "prescriptionId": "PRX10020",
+    "patientId": "P20020",
+    "doctorId": "D1001",
+    "patientName": "Patient 20",
+    "doctorName": "Dr. Anupam Upadhyay",
+    "dateIssued": "2025-07-20",
+    "visitType": "Outpatient",
+    "diagnosis": "Chest Pain",
+    "notes": "Follow the prescribed medication strictly.",
+    "medications": [
+      {
+        "medicineName": "Omeprazole",
+        "dosage": "20mg",
+        "frequency": "Once daily",
+        "duration": "9 days",
+        "instructions": "Before breakfast",
+        "route": "Oral"
+      },
+      {
+        "medicineName": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "6 days",
+        "instructions": "Take after breakfast",
+        "route": "Oral"
+      }
+    ],
+    "followUpDate": "2025-08-02",
+    "attachments": [
+      {
+        "fileType": "pdf",
+        "fileName": "prescription_PRX10020.pdf",
+        "url": "https://ehr.example.com/prescriptions/PRX10020.pdf"
+      }
+    ],
+    "createdAt": "2025-07-20T00:00:00Z",
+    "updatedAt": "2025-07-20T00:05:00Z"
+  }
+]
